@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "axis=y": [
+        	{ "model": "block/hay_block" },
+        	{ "model": "block/hay_block", "y": 90 },
+        	{ "model": "block/hay_block", "y": 180 },
+        	{ "model": "block/hay_block", "y": 270 }
+        ],
+        "axis=z": { "model": "block/hay_block", "x": 90 },
+        "axis=x": { "model": "block/hay_block", "x": 90, "y": 90 }
+    }
+}

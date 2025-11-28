@@ -1,0 +1,100 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "bottom": "block/sweet_berry_bush_stage0",
+        "top": "block/sweet_berry_bush_stage1",
+        "particle": "block/sweet_berry_bush_stage1"
+    },
+    "elements": [
+    	{   "from": [ 0.8, 0, 8 ],
+            "to": [ 15.2, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#top" },
+                "south": { "texture": "#top" }
+            }
+        },
+        {   "from": [ 8, 0, 0.8 ],
+            "to": [ 8, 16, 15.2 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "texture": "#top" },
+                "east": { "texture": "#top" }
+            }
+        },
+        {   "from": [ 0, 0, -9 ],
+            "to": [ 16, 0, 7 ],
+            "rotation": { "origin": [ 8, 0, 7 ], "axis": "x", "angle": 45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "rotation": 180, "texture": "#bottom" }
+            }
+        },
+        {   "from": [ 0, 0, 9 ],
+            "to": [ 16, 0, 25 ],
+            "rotation": { "origin": [ 8, 0, 9 ], "axis": "x", "angle": -45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#bottom" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "texture": "#bottom" }
+            }
+        },
+        {   "from": [ -9, 0, 0 ],
+            "to": [ 7, 0, 16 ],
+            "rotation": { "origin": [ 7, 0, 8 ], "axis": "z", "angle": -45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "rotation": 270, "texture": "#bottom" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "rotation": 270, "texture": "#bottom" }
+            }
+        },
+        {   "from": [ 9, 0, 0 ],
+            "to": [ 25, 0, 16 ],
+            "rotation": { "origin": [ 9, 0, 8 ], "axis": "z", "angle": 45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#bottom" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "rotation": 90, "texture": "#bottom" }
+            }
+        },
+        {   "from": [ 0, 0, 7 ],
+            "to": [ 16, 16, 7 ],
+            "rotation": { "origin": [ 8, 0, 7 ], "axis": "x", "angle": -22.5, "rescale": false },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" },
+                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" }
+            }
+        },
+        {   "from": [ 0, 0, 9 ],
+            "to": [ 16, 16, 9 ],
+            "rotation": { "origin": [ 8, 0, 9 ], "axis": "x", "angle": 22.5, "rescale": false },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" },
+                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" }
+            }
+        },
+        {   "from": [ 7, 0, 0 ],
+            "to": [ 7, 16, 16 ],
+            "rotation": { "origin": [ 7, 0, 8 ], "axis": "z", "angle": 22.5, "rescale": false },
+            "shade": false,
+            "faces": {
+                "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" },
+                "west": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" }
+            }
+        },
+        {   "from": [ 9, 0, 0 ],
+            "to": [ 9, 16, 16 ],
+            "rotation": { "origin": [ 9, 0, 8 ], "axis": "z", "angle": -22.5, "rescale": false },
+            "shade": false,
+            "faces": {
+                "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" },
+                "west": { "uv": [ 16, 0, 0, 16 ], "texture": "#top" }
+            }
+        }
+    ]
+}

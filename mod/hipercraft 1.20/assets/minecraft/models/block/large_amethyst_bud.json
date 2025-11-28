@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/amethysts",
+  "textures": {
+    "cross": "minecraft:block/large_amethyst_bud",
+    "base": "minecraft:block/medium_amethyst_bud"
+  }
+}

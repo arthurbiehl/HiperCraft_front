@@ -1,0 +1,128 @@
+{
+    "ambientocclusion": true,
+	"textures": {
+        "particle": "#side"
+    },
+    "elements": [
+        {   "__comment": "Bottom Main",
+			"from": [ 1.375, 1, 1.375 ],
+            "to": [ 16, 7, 16 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		{   "__comment": "Middle Horizontal",
+			"from": [ 0, 7, 0 ],
+            "to": [ 16, 8, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "rotation": 270 },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#front" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		
+		{  "__comment": "Bottom Horizontal",
+			"from": [ 0, 0, 0 ],
+            "to": [ 16, 1, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "rotation": 270, "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#front" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		
+        {   "__comment": "Top Main",
+			"from": [ 9.375, 8, 9.375 ],
+            "to": [ 16, 15, 16 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		{   "__comment": "Top Horizontal",
+			"from": [ 8, 15, 8 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "rotation": 270 },
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#front" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		
+		{   "__comment": "Top Post 1",
+			"from": [ 8, 8, 14.625 ],
+            "to": [ 9.375, 15, 16 ],
+            "faces": {
+                "north": { "texture": "#side", "uv": [ 14.625, 1, 16, 8 ] },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		{   "__comment": "Top Post 2",
+			"from": [ 8, 8, 8 ],
+            "to": [ 9.375, 15, 9.375 ],
+            "faces": {
+                "north": { "texture": "#side", "uv": [ 14.625, 1, 16, 8 ] },
+                "south": { "texture": "#side", "uv": [ 0, 1, 1.375, 8 ] },
+                "west":  { "texture": "#side", "uv": [ 0, 1, 1.375, 8 ] },
+                "east":  { "texture": "#side", "uv": [ 14.625, 1, 16, 8 ] }
+            }
+        },
+		{   "__comment": "Top Post 3",
+			"from": [ 14.625, 8, 8 ],
+            "to": [ 16, 15, 9.375 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side", "uv": [ 0, 1, 1.375, 8 ] },
+                "east":  { "texture": "#side" }
+            }
+        },
+		
+		{   "__comment": "Bottom Post 1",
+			"from": [ 0, 1, 14.625 ],
+            "to": [ 1.375, 7, 16 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		{   "__comment": "Bottom Post 2",
+			"from": [ 0, 1, 0 ],
+            "to": [ 1.375, 7, 1.375 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		{   "__comment": "Bottom Post 3",
+			"from": [ 14.625, 1, 0 ],
+            "to": [ 16, 7, 1.375 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

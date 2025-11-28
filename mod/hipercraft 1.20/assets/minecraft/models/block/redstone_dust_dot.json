@@ -1,0 +1,41 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "block/redstone_dust_dot",
+        "dot": "block/redstone_dust_dot",
+        "dot1": "block/redstone_dust_dot1",
+        "dot2": "block/redstone_dust_dot2",
+        "dot3": "block/redstone_dust_dot3",
+        "overlay": "block/redstone_dust_overlay"
+    },
+    "elements": [
+        {   "from": [ 0, 0.26, 0 ],
+            "to": [ 16, 0.26, 16 ],
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16], "texture": "#dot", "tintindex": 0 }
+            }
+        },
+		{   "from": [ 0, 0.5, 0 ],
+            "to": [ 16, 0.5, 16 ],
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16], "texture": "#dot1", "tintindex": 0 }
+            }
+        },
+		{   "from": [ 0, 0.75, 0 ],
+            "to": [ 16, 0.75, 16 ],
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16], "texture": "#dot2", "tintindex": 0 }
+            }
+        },
+		{   "from": [ 0, 1, 0 ],
+            "to": [ 16, 1, 16 ],
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16], "texture": "#dot3", "tintindex": 0 }
+            }
+        }
+    ]
+}

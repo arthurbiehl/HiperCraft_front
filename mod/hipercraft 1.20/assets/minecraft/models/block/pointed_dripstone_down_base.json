@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"dripstone": "block/dripstone_block",
+		"top": "block/dripstone_block_top",
+		"pointed": "block/pointed_dripstone2",
+		"particle": "block/dripstone_block"
+	},
+	"elements": [
+		{
+			"from": [1, 11, 1],
+			"to": [15, 16, 15],
+            "shade": false,
+			"faces": {
+				"north": { "texture": "#dripstone", "cullface": "north"},
+				"east": { "texture": "#dripstone", "cullface": "east"},
+				"south": { "texture": "#dripstone", "cullface": "south"},
+				"west": { "texture": "#dripstone", "cullface": "west"},
+				"up": { "texture": "#top", "cullface": "up"},
+				"down": { "texture": "#top"}
+			}
+		},
+		{
+			"from": [2, 0, 2],
+			"to": [14, 11, 14],
+            "shade": false,
+			"faces": {
+				"north": { "texture": "#pointed"},
+				"east": { "texture": "#pointed"},
+				"south": { "texture": "#pointed"},
+				"west": { "texture": "#pointed"},
+				"down": { "texture": "#top"}
+			}
+		}
+	]
+}

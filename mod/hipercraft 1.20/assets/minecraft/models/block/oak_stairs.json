@@ -1,0 +1,9 @@
+{
+    "parent": "block/stairs_wooden",
+    "textures": {
+        "bottom": "block/oak_planks_stairs",
+        "top": "block/oak_planks_stairs",
+        "side": "block/oak_planks_stairs",
+		"front": "block/oak_planks"
+    }
+}

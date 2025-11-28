@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/cracked_stone_bricks" },
+			{ "model": "block/ctm/cracked_stone_bricks/cracked_stone_bricks1" }
+		]
+    }
+}

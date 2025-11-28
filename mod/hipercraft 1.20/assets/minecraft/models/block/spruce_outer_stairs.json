@@ -1,0 +1,11 @@
+{
+    "parent": "block/outer_stairs_wooden_2",
+    "textures": {
+        "bottom": "block/spruce_planks_outer_corner",
+        "top": "block/spruce_planks_outer_corner",
+        "side": "block/spruce_planks_stairs_side",
+        "side2": "block/spruce_planks_stairs_side2",
+        "front": "block/spruce_planks_stairs",
+        "back": "block/spruce_planks"
+    }
+}

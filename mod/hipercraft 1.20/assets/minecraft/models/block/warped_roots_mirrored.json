@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross_mirrored",
+    "textures": {
+        "cross": "block/warped_roots"
+    }
+}

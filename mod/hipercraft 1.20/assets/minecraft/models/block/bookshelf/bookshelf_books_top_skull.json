@@ -1,0 +1,102 @@
+{
+    "parent": "block/block",
+	"textures": {
+        "wood": "block/planks_oak",
+		"particle": "block/bookshelf",
+		"dark": "block/bookshelf_shadow",
+		"books0": "block/books/books0",
+		"books1": "block/books/books1",
+		"books2": "block/books/books2",
+		"books3": "block/books/books3",
+		"books4": "block/books/books4",
+		"books5": "block/books/books5",
+		"books6": "block/books/books6",
+		"books7": "block/books/books7",
+		"books8": "block/books/books8",
+		"books9": "block/books/books9",
+		"books10": "block/books/books10",
+		"books11": "block/books/books11",
+		"skull": "block/books/stray_skull",
+		"paper": "block/books/paper1"
+	},
+	"elements": [
+		{   "__comment": "Book3 Top North",
+			"from": [ 12.375, 8.25, 0.3 ],
+            "to": [ 13.625, 14, 2.425 ],
+            "faces": {
+                "up":    { "uv": [ 14, 8, 16, 16 ], "texture": "#books1", "cullface": "north" },
+                "east": { "uv": [ 1.75, 0, 3.875, 5.75 ], "texture": "#books1", "cullface": "north" },
+                "north":  { "uv": [ 3.875, 0, 5.125, 5.75 ], "texture": "#books1", "cullface": "north" },
+                "west": { "uv": [ 5.125, 0, 7.25, 5.75 ], "texture": "#books1", "cullface": "north" }
+            }
+        },
+		{   "__comment": "Book4 Top North",
+			"from": [ 10.75, 8.25, 0.4 ],
+            "to": [ 12.25, 14, 3.65 ],
+            "faces": {
+                "up":    { "uv": [ 14, 8, 16, 16 ], "texture": "#books1", "cullface": "north" },
+                "east": { "uv": [ 0.5, 6, 3.75, 11.75 ], "texture": "#books1", "cullface": "north" },
+                "north":  { "uv": [ 3.75, 6, 5.25, 11.75 ], "texture": "#books1", "cullface": "north" },
+                "west": { "uv": [ 5.25, 6, 8.5, 11.75 ], "texture": "#books1", "cullface": "north" }
+            }
+        },
+		
+		{   "__comment": "Stray Skull North",
+			"from": [ 6, 8.25, 1 ],
+            "to": [ 10, 12.25, 5 ],
+			"shade": false,
+			"rotation": { "origin": [ 8, 8, 3 ], "axis": "y", "angle": 22.5, "rescale": false },
+            "faces": {
+                "up":    { "uv": [ 4, 0, 8, 4 ], "texture": "#skull", "cullface": "north" },
+                "east": { "uv": [ 0, 4, 4, 8 ], "texture": "#skull", "cullface": "north" },
+                "north":  { "uv": [ 4, 4, 8, 8 ], "texture": "#skull", "cullface": "north" },
+                "west": { "uv": [ 8, 4, 12, 8 ], "texture": "#skull", "cullface": "north" },
+                "south":  { "uv": [ 12, 4, 16, 8 ], "texture": "#skull", "cullface": "north" }
+            }
+        },
+		
+		{   "__comment": "Paper North",
+			"from": [ 4, 8.251, 0 ],
+            "to": [ 10.5, 8.251, 3.65625 ],
+            "faces": {
+                "up":    { "uv": [ 0, 0, 14.5, 8.086 ], "texture": "#paper", "rotation": 180, "cullface": "north" }
+            }
+        },
+		{   "__comment": "Paper North",
+			"from": [ 4, 8.251, -0.203125 ],
+            "to": [ 10.5, 8.251, 0 ],
+			"shade": false,
+			"rotation": { "origin": [ 7.25, 8.251, 0 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "faces": {
+                "up":    { "uv": [ 0, 8.086, 14.5, 8.535 ], "texture": "#paper", "rotation": 180, "cullface": "north" }
+            }
+        },
+		{   "__comment": "Paper North",
+			"from": [ 4, 8.167, -0.40625 ],
+            "to": [ 10.5, 8.167, -0.203125 ],
+			"shade": false,
+			"rotation": { "origin": [ 7.25, 8.167, -0.203125 ], "axis": "x", "angle": -45, "rescale": true },
+            "faces": {
+                "up":    { "uv": [ 0, 8.535, 14.5, 8.984 ], "texture": "#paper", "rotation": 180, "cullface": "north" }
+            }
+        },
+		{   "__comment": "Paper North",
+			"from": [ 4, 7.761, -0.40625 ],
+            "to": [ 10.5, 7.964, -0.40625 ],
+			"shade": false,
+			"rotation": { "origin": [ 7.25, 7.964, -0.40625 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "faces": {
+                "north":    { "uv": [ 0, 8.984, 14.5, 9.433 ], "texture": "#paper", "cullface": "north" }
+            }
+        },
+		{   "__comment": "Paper North",
+			"from": [ 4, 5.571, -0.49 ],
+            "to": [ 10.5, 7.761, -0.49 ],
+			"shade": false,
+			"rotation": { "origin": [ 7.25, 7.761, -0.49 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "faces": {
+                "north":    { "uv": [ 0, 8.984, 14.5, 14.375 ], "texture": "#paper", "cullface": "north" }
+            }
+        }
+    ]
+}

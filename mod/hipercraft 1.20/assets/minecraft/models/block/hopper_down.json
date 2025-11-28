@@ -1,0 +1,23 @@
+{
+    "parent": "block/block",
+	"ambientocclusion": true,
+    "textures": {
+        "particle": "block/hopper_outside",
+        "top": "block/hopper_top",
+        "side": "block/hopper_outside",
+        "inside": "block/hopper_inside",
+		"bottom": "block/hopper_bottom"
+    },
+    "elements": [
+        {   "from": [ 6, 0, 6 ],
+            "to": [ 10, 4, 10 ],
+            "faces": {
+                "down":  { "texture": "#bottom" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

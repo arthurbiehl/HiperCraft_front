@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/thin_sword",
+  "textures": {
+    "layer0": "minecraft:item/golden_sword"
+  }
+}

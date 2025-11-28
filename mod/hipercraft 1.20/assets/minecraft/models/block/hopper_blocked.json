@@ -1,0 +1,28 @@
+{
+    "parent": "block/block",
+	"ambientocclusion": true,
+    "textures": {
+        "particle": "block/bedrock",
+        "all": "block/bedrock"
+    },
+    "elements": [
+        {   "from": [ 7.5, 14, 0 ],
+            "to": [ 8.5, 15, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "from": [ 0, 14, 7.5 ],
+            "to": [ 16, 15, 8.5 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north":  { "texture": "#all" },
+                "south":  { "texture": "#all" }
+            }
+        }
+    ]
+}

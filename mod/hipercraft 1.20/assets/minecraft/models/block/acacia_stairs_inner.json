@@ -1,0 +1,9 @@
+{
+    "parent": "block/inner_stairs_wooden",
+    "textures": {
+        "bottom": "block/acacia_planks_inner_corner",
+        "top": "block/acacia_planks_inner_corner",
+        "side": "block/acacia_planks_stairs",
+        "front": "block/acacia_planks"
+    }
+}

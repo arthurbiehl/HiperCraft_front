@@ -1,0 +1,6 @@
+{
+    "parent": "item/disc",
+    "textures": {
+        "disc": "item/music_disc_13"
+    }
+}

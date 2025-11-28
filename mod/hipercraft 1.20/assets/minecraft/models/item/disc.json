@@ -1,0 +1,36 @@
+{
+    "ambientocclusion": true,
+	"elements": [
+        {   "from": [ 0, 0, 8 ],
+            "to": [ 16, 16, 8 ],
+            "faces": {
+                "north":  { "texture": "#disc", "cull": false },
+                "south":    { "texture": "#disc", "cull": false }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, -3 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 90, -135, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+		"gui": {
+            "rotation": [ -60, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.7, 0.7, 0.7 ]
+        },
+        "ground": {
+            "rotation": [ 90, 0, 0 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "fixed": {
+            "scale": [ 1, 1, 1 ]
+        }
+    }
+}

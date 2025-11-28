@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post_log",
+  "textures": {
+    "post": "minecraft:block/oak_log"
+  }
+}

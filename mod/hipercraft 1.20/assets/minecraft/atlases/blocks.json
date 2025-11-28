@@ -1,0 +1,12 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "entity/trident"
+        },
+        {
+            "type": "single",
+            "resource": "entity/armorstand/wood"
+        }
+    ]
+}

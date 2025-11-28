@@ -1,0 +1,6 @@
+{
+    "parent": "block/block_no_shades",
+    "textures": {
+        "all": "block/packed_ice"
+    }
+}

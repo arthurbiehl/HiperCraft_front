@@ -1,0 +1,91 @@
+{
+    "multipart": [
+        { "apply": [
+			{ "model": "block/ctm/gravel/gravel1" },
+            { "model": "block/ctm/gravel/gravel1", "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel1", "y": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 90, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 90, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 90, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel1", "y": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 180, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 180, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 180, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel1", "y": 270, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 270, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 270, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel1", "y": 270, "x": 270, "uvlock": true },
+			
+			
+			
+			{ "model": "block/ctm/gravel/gravel2" },
+            { "model": "block/ctm/gravel/gravel2", "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel2", "y": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 90, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 90, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 90, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel2", "y": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 180, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 180, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 180, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel2", "y": 270, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 270, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 270, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel2", "y": 270, "x": 270, "uvlock": true },
+			
+			
+			
+			{ "model": "block/ctm/gravel/gravel3" },
+            { "model": "block/ctm/gravel/gravel3", "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel3", "y": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 90, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 90, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 90, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel3", "y": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 180, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 180, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 180, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel3", "y": 270, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 270, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 270, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel3", "y": 270, "x": 270, "uvlock": true },
+			
+			
+			
+			{ "model": "block/ctm/gravel/gravel4" },
+            { "model": "block/ctm/gravel/gravel4", "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel4", "y": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 90, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 90, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 90, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel4", "y": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 180, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 180, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 180, "x": 270, "uvlock": true },
+			
+            { "model": "block/ctm/gravel/gravel4", "y": 270, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 270, "x": 90, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 270, "x": 180, "uvlock": true },
+            { "model": "block/ctm/gravel/gravel4", "y": 270, "x": 270, "uvlock": true }
+        ]}
+    ]
+}

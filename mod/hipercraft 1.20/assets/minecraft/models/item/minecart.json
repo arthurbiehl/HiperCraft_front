@@ -1,0 +1,111 @@
+{
+    "parent": "block/block",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 90, 0, 0 ],
+            "translation": [ -6, 4.125, 5 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ -8, 6, 0 ],
+            "scale": [ 2, 2, 2 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 4, 0 ]
+        },
+		"ground": {
+            "scale": [ 1, 1, 1 ],
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 8, 0 ]
+		},
+        "head": {
+            "scale": [ 2, 2, 2 ],
+            "rotation": [ 180, 0, 0 ],
+            "translation": [ 0, -4, 0 ]
+        },
+		"gui": {
+            "rotation": [ 30, -112.5, 0 ],
+            "translation": [ 0, 4, 0],
+            "scale":[ 1.2, 1.2, 1.2 ]
+        }
+    },
+    "textures": {
+        "minecart": "item/minecart_model"
+    },
+	"elements": [
+		{   
+            "__comment": "Base",
+			"from": [ 3, 0, 4 ],
+            "to": [ 13, 1, 12 ],
+            "faces": {
+                "north": { "uv": [ 0.5, 2.5, 5.5, 3 ], "texture": "#minecart" },
+                "south":  { "uv": [ 5.5,  2.5,  10.5, 3 ], "texture": "#minecart" },
+                "west":  { "uv": [ 5.5, 3, 6, 7 ], "rotation": 270, "texture": "#minecart" },
+                "east":  { "uv": [ 0, 3, 0.5, 7 ], "rotation": 90, "texture": "#minecart" },
+                "up":  { "uv": [ 6, 3,  11, 7 ], "texture": "#minecart" }
+            }
+        },
+        {   
+            "__comment": "Bottom",
+            "from": [ 3, 0.5, 4 ],
+            "to": [ 13, 0.5, 12 ],
+            "faces": {
+                "down":  { "uv": [ 0.5, 3,  5.5, 7 ], "rotation": 180, "texture": "#minecart" }
+            }
+        },
+		{   
+            "__comment": "Short Side 1",
+			"from": [ 3, 1, 4 ],
+            "to": [ 4, 5, 12 ],
+            "faces": {
+                "north": { "uv": [ 0, 0.5, 0.5, 2.5 ], "texture": "#minecart" },
+                "south":  { "uv": [ 4.5,  0.5,  5, 2.5 ], "texture": "#minecart" },
+                "west":  { "uv": [ 0.5, 0.5, 4.5, 2.5 ], "texture": "#minecart" },
+                "east":  { "uv": [ 5,  0.5,  9, 2.5 ], "texture": "#minecart" },
+                "up":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "rotation": 90, "texture": "#minecart" },
+                "down":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "rotation": 90, "texture": "#minecart" }
+            }
+        },
+		{   
+            "__comment": "Short Side 2",
+			"from": [ 12, 1, 4 ],
+            "to": [ 13, 5, 12 ],
+            "faces": {
+                "north": { "uv": [ 0, 0.5, 0.5, 2.5 ], "texture": "#minecart" },
+                "south":  { "uv": [ 4.5,  0.5,  5, 2.5 ], "texture": "#minecart" },
+                "west":  { "uv": [ 0.5, 0.5, 4.5, 2.5 ], "texture": "#minecart" },
+                "east":  { "uv": [ 5,  0.5,  9, 2.5 ], "texture": "#minecart" },
+                "up":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "rotation": 90, "texture": "#minecart" },
+                "down":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "rotation": 90, "texture": "#minecart" }
+            }
+        },
+		{   
+            "__comment": "Long Side 1",
+			"from": [ 4, 1, 4 ],
+            "to": [ 12, 5, 5 ],
+            "faces": {
+                "north": { "uv": [ 0.5, 0.5, 4.5, 2.5 ], "texture": "#minecart" },
+                "south":  { "uv": [ 5,  0.5,  9, 2.5 ], "texture": "#minecart" },
+                "west":  { "uv": [ 0, 0.5, 0.5, 2.5 ], "texture": "#minecart" },
+                "east":  { "uv": [ 4.5,  0.5,  5, 2.5 ], "texture": "#minecart" },
+                "up":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "texture": "#minecart" },
+                "down":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "texture": "#minecart" }
+            }
+        },
+		{   
+            "__comment": "Long Side 2",
+			"from": [ 4, 1, 11 ],
+            "to": [ 12, 5, 12 ],
+            "faces": {
+                "north": { "uv": [ 0.5, 0.5, 4.5, 2.5 ], "texture": "#minecart" },
+                "south":  { "uv": [ 5,  0.5,  9, 2.5 ], "texture": "#minecart" },
+                "west":  { "uv": [ 0, 0.5, 0.5, 2.5 ], "texture": "#minecart" },
+                "east":  { "uv": [ 4.5,  0.5,  5, 2.5 ], "texture": "#minecart" },
+                "up":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "texture": "#minecart" },
+                "down":  { "uv": [ 0.5, 0,  4.5, 0.5 ], "texture": "#minecart" }
+            }
+        }
+	]
+}

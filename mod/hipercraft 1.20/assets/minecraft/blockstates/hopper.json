@@ -1,0 +1,37 @@
+{
+    "multipart": [
+		{ "when": { "facing": "down" },
+			"apply": { "model": "block/hopper_base" }
+		},
+		{ "when": { "facing": "down" },
+			"apply": { "model": "block/hopper_down" }
+        },
+		{ "when": { "facing": "north" },
+			"apply": { "model": "block/hopper_side" }
+        },
+		{ "when": { "facing": "north" },
+			"apply": { "model": "block/hopper_base_rotated" }
+        },
+		{ "when": { "facing": "east" },
+			"apply": { "model": "block/hopper_side", "y": 90 }
+        },
+		{ "when": { "facing": "east" },
+			"apply": { "model": "block/hopper_base_rotated", "y": 90 }
+        },
+		{ "when": { "facing": "south" },
+			"apply": { "model": "block/hopper_side", "y": 180 }
+        },
+		{ "when": { "facing": "south" },
+			"apply": { "model": "block/hopper_base_rotated", "y": 180 }
+        },
+		{ "when": { "facing": "west" },
+			"apply": { "model": "block/hopper_side", "y": 270 }
+        },
+		{ "when": { "facing": "west" },
+			"apply": { "model": "block/hopper_base_rotated", "y": 270 }
+        },
+		{ "when": { "enabled": "false" },
+			"apply": { "model": "block/hopper_blocked" }
+        }
+    ]
+}

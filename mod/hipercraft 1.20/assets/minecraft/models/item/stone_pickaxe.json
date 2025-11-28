@@ -1,0 +1,56 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_pickaxe"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"damaged": 1
+			},
+			"model": "item/stone_pickaxe_d1"
+		},
+		{
+			"predicate": {
+				"damage": 0.125
+			},
+			"model": "item/stone_pickaxe_d2"
+		},
+		{
+			"predicate": {
+				"damage": 0.25
+			},
+			"model": "item/stone_pickaxe_d3"
+		},
+		{
+			"predicate": {
+				"damage": 0.375
+			},
+			"model": "item/stone_pickaxe_d4"
+		},
+		{
+			"predicate": {
+				"damage": 0.5
+			},
+			"model": "item/stone_pickaxe_d5"
+		},
+		{
+			"predicate": {
+				"damage": 0.625
+			},
+			"model": "item/stone_pickaxe_d6"
+		},
+		{
+			"predicate": {
+				"damage": 0.75
+			},
+			"model": "item/stone_pickaxe_d7"
+		},
+		{
+			"predicate": {
+				"damage": 0.875
+			},
+			"model": "item/stone_pickaxe_d8"
+		}
+	]
+}

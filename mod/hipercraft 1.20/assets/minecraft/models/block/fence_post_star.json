@@ -1,0 +1,45 @@
+{
+    "textures": {
+        "particle": "#texture"
+    },
+    "elements": [
+        {   "from": [ 6.5, 0, 6.5 ],
+            "to": [ 9.5, 16, 9.5 ],
+            "faces": {
+                "down":  { "texture": "#texture", "cullface": "down" },
+                "up":    { "texture": "#texture", "cullface": "up" },
+                "north": { "texture": "#texture" },
+                "south": { "texture": "#texture" },
+                "west":  { "texture": "#texture" },
+                "east":  { "texture": "#texture" }
+            },
+            "__comment": "Main post"
+        },
+        {   "from": [ 5.875, 12, 5.875 ],
+            "to": [ 10.125, 16, 10.125 ],
+            "rotation": { "origin": [ 8, 14, 8 ], "axis": "x", "angle": 45, "rescale": false },
+            "faces": {
+                "down":  { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "up":    { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "north": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "south": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "west":  { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "east":  { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" }
+            },
+            "__comment": "Upper cube 1"
+        },
+        {   "from": [ 5.875, 12, 5.875 ],
+            "to": [ 10.125, 16, 10.125 ],
+            "rotation": { "origin": [ 8, 14, 8 ], "axis": "z", "angle": 45, "rescale": false },
+            "faces": {
+                "down":  { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "up":    { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "north": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "south": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "west":  { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+                "east":  { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" }
+            },
+            "__comment": "Upper cube 2"
+        }
+    ]
+}

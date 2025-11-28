@@ -1,0 +1,6 @@
+{
+	"parent": "block/note_block_instrument",
+	"textures": {
+		"instrument": "block/note_block/instruments/bass_drum_off"
+	}
+}

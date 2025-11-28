@@ -1,0 +1,6 @@
+{
+	"parent": "block/stone",
+	"textures": {
+		"all": "block/ctm/stone/stone3"
+	}
+}

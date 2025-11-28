@@ -1,0 +1,9 @@
+{
+	"parent": "block/flower_pot_cross",
+    "textures": {
+        "particle": "block/flower_pot",
+        "flowerpot": "block/flower_pot",
+        "dirt": "block/dirt",
+        "plant": "block/fern"
+    }
+}

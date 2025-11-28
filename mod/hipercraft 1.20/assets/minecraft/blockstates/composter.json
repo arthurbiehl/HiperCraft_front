@@ -1,0 +1,74 @@
+{
+    "multipart": [
+        {   "apply": [
+            { "model": "block/composter" },
+            { "model": "block/composter", "y": 90 },
+            { "model": "block/composter", "y": 180 },
+            { "model": "block/composter", "y": 270 }
+        ]},
+        {   "when": { "level": "1" },
+            "apply": [
+                { "model": "block/composter_contents1" },
+                { "model": "block/composter_contents1", "y": 90 },
+                { "model": "block/composter_contents1", "y": 180 },
+                { "model": "block/composter_contents1", "y": 270 }
+            ]
+        },
+        {   "when": { "level": "2" },
+            "apply": [
+                { "model": "block/composter_contents2" },
+                { "model": "block/composter_contents2", "y": 90 },
+                { "model": "block/composter_contents2", "y": 180 },
+                { "model": "block/composter_contents2", "y": 270 }
+            ]
+        },
+        {   "when": { "level": "3" },
+            "apply": [
+                { "model": "block/composter_contents3" },
+                { "model": "block/composter_contents3", "y": 90 },
+                { "model": "block/composter_contents3", "y": 180 },
+                { "model": "block/composter_contents3", "y": 270 }
+            ]
+        },
+        {   "when": { "level": "4" },
+            "apply": [
+                { "model": "block/composter_contents4" },
+                { "model": "block/composter_contents4", "y": 90 },
+                { "model": "block/composter_contents4", "y": 180 },
+                { "model": "block/composter_contents4", "y": 270 }
+            ]
+        },
+        {   "when": { "level": "5" },
+            "apply": [
+                { "model": "block/composter_contents5" },
+                { "model": "block/composter_contents5", "y": 90 },
+                { "model": "block/composter_contents5", "y": 180 },
+                { "model": "block/composter_contents5", "y": 270 }
+            ]
+        },
+        {   "when": { "level": "6" },
+            "apply": [
+                { "model": "block/composter_contents6" },
+                { "model": "block/composter_contents6", "y": 90 },
+                { "model": "block/composter_contents6", "y": 180 },
+                { "model": "block/composter_contents6", "y": 270 }
+            ]
+        },
+        {   "when": { "level": "7" },
+            "apply": [
+                { "model": "block/composter_contents7" },
+                { "model": "block/composter_contents7", "y": 90 },
+                { "model": "block/composter_contents7", "y": 180 },
+                { "model": "block/composter_contents7", "y": 270 }
+            ]
+        },
+        {   "when": { "level": "8" },
+            "apply": [
+                { "model": "block/composter_contents_ready" },
+                { "model": "block/composter_contents_ready", "y": 90 },
+                { "model": "block/composter_contents_ready", "y": 180 },
+                { "model": "block/composter_contents_ready", "y": 270 }
+            ]
+        }
+    ]
+}

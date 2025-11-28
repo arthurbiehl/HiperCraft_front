@@ -1,0 +1,36 @@
+{   "parent": "block/block",
+    "textures": {
+        "particle": "block/honey_block_top",
+        "bottom": "block/honey_block_bottom",
+        "top": "block/honey_block_top",
+        "side": "block/honey_block_side",
+        "inside": "block/honey_block_inside"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "shade": false,
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+        {   "from": [ 1, 1, 1 ],
+            "to": [ 15, 15, 15 ],
+            "shade": false,
+            "faces": {
+                "down":  { "texture": "#inside"},
+                "up":    { "texture": "#inside"},
+                "north": { "texture": "#inside"},
+                "south": { "texture": "#inside"},
+                "west":  { "texture": "#inside"},
+                "east":  { "texture": "#inside"}
+            }
+        }
+    ]
+}
+

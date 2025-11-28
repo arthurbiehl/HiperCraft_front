@@ -1,0 +1,9 @@
+{
+    "ambientocclusion": false,
+	"parent": "block/wall_torch",
+    "textures": {
+        "particle": "block/redstone_torch",
+		"torch": "block/redstone_torch",
+		"torch_inv": "block/redstone_torch"
+    }
+}

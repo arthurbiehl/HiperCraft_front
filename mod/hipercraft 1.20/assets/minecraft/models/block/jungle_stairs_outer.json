@@ -1,0 +1,9 @@
+{
+    "parent": "block/outer_stairs_wooden",
+    "textures": {
+        "bottom": "block/jungle_planks_outer_corner",
+        "top": "block/jungle_planks_outer_corner",
+        "side": "block/jungle_planks_stairs",
+        "front": "block/jungle_planks"
+    }
+}

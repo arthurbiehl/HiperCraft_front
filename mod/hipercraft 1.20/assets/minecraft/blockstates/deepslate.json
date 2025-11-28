@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "axis=y": [
+            { "model": "block/deepslate" },
+            { "model": "block/deepslate_mirrored" }
+        ],
+        "axis=x": [
+            { "model": "block/deepslate", "y": 90, "x": 90 },
+            { "model": "block/deepslate_mirrored", "y": 90, "x": 90 }
+        ],
+        "axis=z": [
+            { "model": "block/deepslate", "x": 90 },
+            { "model": "block/deepslate_mirrored", "x": 90 }
+        ]
+    }
+}

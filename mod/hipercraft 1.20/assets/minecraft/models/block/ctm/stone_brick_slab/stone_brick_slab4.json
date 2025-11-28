@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/ctm/stone_bricks/stone_bricks4",
+        "top": "block/ctm/stone_bricks/stone_bricks4",
+        "side": "block/ctm/stone_bricks/stone_bricks4"
+    }
+}

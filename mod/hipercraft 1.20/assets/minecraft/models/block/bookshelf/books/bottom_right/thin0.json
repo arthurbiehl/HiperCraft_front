@@ -1,0 +1,90 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "block/bookshelf",
+    "thin2": "block/books/thin/2",
+    "thin5": "block/books/thin/5",
+    "thin1": "block/books/thin/1"
+  },
+  "elements": [
+    {
+      "_comment": "Book 1",
+      "from": [0.5, 0.5, 0],
+      "to": [1.25, 6, 0.5],
+      "faces": {
+        "up": {
+          "uv": [8.25, 3.25, 9, 3.75],
+          "texture": "#thin2",
+          "rotation": 180,
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [3.25, 0, 3.75, 5.5],
+          "texture": "#thin2",
+          "cullface": "north"
+        },
+        "north": {
+          "uv": [3.75, 0, 4.5, 5.5],
+          "texture": "#thin2",
+          "cullface": "north"
+        }
+      }
+    },
+    {
+      "_comment": "Book 2",
+      "from": [1.25, 0.5, 0.25],
+      "to": [2.25, 6.375, 1.25],
+      "faces": {
+        "up": {
+          "uv": [9.75, 3.375, 10.75, 4.375],
+          "texture": "#thin5",
+          "rotation": 180,
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [3.375, 0, 4.375, 5.875],
+          "texture": "#thin5",
+          "cullface": "north"
+        },
+        "north": {
+          "uv": [4.375, 0, 5.375, 5.875],
+          "texture": "#thin5",
+          "cullface": "north"
+        },
+        "west": {
+          "uv": [5.375, 0, 6.375, 5.875],
+          "texture": "#thin5",
+          "cullface": "north"
+        }
+      }
+    },
+    {
+      "_comment": "Book 3",
+      "from": [2.25, 0.5, 0.25],
+      "to": [3.375, 6.125, 2.25],
+      "faces": {
+        "up": {
+          "uv": [9.125, 2, 10.25, 4],
+          "texture": "#thin1",
+          "rotation": 180,
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [2, 0, 4, 5.625],
+          "texture": "#thin1",
+          "cullface": "north"
+        },
+        "north": {
+          "uv": [4, 0, 5.125, 5.625],
+          "texture": "#thin1",
+          "cullface": "north"
+        },
+        "west": {
+          "uv": [5.125, 0, 7.125, 5.625],
+          "texture": "#thin1",
+          "cullface": "north"
+        }
+      }
+    }
+  ]
+}

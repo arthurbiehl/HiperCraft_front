@@ -1,0 +1,39 @@
+{
+    "textures": {
+        "particle": "block/brewing_stand",
+        "base": "block/brewing_stand_base",
+        "stand": "block/brewing_stand",
+		"base_side": "block/cobblestone",
+		"base_bottom": "block/cobblestone",
+		"rod": "block/brewing_stand_rod"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 8 ],
+            "to": [ 8, 16, 8 ],
+            "rotation": {
+                "origin": [ 8, 8, 8 ],
+                "axis": "y",
+                "angle": 45,
+                "rescale": true
+            },
+            "faces": {
+                "north": { "uv": [ 8, 0, 0, 16 ], "texture": "#stand" },
+                "south": { "uv": [ 0, 0, 8, 16 ], "texture": "#stand" }
+            }
+        },
+        {   "from": [ 3, 2, 6 ],
+            "to": [ 3, 10.5, 10 ],
+			"shade": false,
+            "rotation": {
+                "origin": [ 8, 8, 8 ],
+                "axis": "y",
+                "angle": 45,
+                "rescale": true
+            },
+            "faces": {
+                "west": { "uv": [ 5, 5.5, 1, 14 ], "texture": "#stand" },
+                "east": { "uv": [ 1, 5.5, 5, 14 ], "texture": "#stand" }
+            }
+        }
+    ]
+}

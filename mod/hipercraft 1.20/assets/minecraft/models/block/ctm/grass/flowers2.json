@@ -1,0 +1,7 @@
+{
+	"parent": "block/ctm/grass/flowers1",
+	"textures": {
+        "flower": "block/ctm/grass/flowers2",
+		"particle": "block/grass"
+    }
+}

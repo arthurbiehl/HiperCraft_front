@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "minecraft:block/brick_wall",
+    "wall_top": "minecraft:block/brick_wall_top"
+  },
+    "elements": [
+        {   "from": [ 5, 0, 0 ],
+            "to": [ 11, 14, 8 ],
+            "faces": {
+                "down":  { "texture": "#wall", "cullface": "down" },
+                "up":    { "texture": "#wall_top" },
+                "north": { "texture": "#wall", "cullface": "north" },
+                "west":  { "texture": "#wall" },
+                "east":  { "texture": "#wall" }
+            },
+            "__comment": "wall"
+        }
+    ]
+}

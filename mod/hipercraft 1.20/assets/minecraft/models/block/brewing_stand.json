@@ -1,0 +1,56 @@
+{
+    "textures": {
+        "particle": "block/brewing_stand",
+        "base": "block/brewing_stand_base",
+		"cobble": "block/cobblestone",
+		"rod": "block/brewing_stand_rod",
+        "stand": "block/brewing_stand"
+    },
+    "elements": [
+        {   "from": [ 7, 0, 7 ],
+            "to": [ 9, 12, 9 ],
+            "shade": false,
+            "faces": {
+                "down":  { "uv": [ 7, 7, 9,  9 ], "texture": "#rod" },
+                "up":    { "uv": [ 7, 7, 9,  9 ], "texture": "#rod" },
+                "north": { "uv": [ 7, 4, 9, 16 ], "texture": "#rod" },
+                "south": { "uv": [ 7, 4, 9, 16 ], "texture": "#rod" },
+                "west":  { "uv": [ 7, 4, 9, 16 ], "texture": "#rod" },
+                "east":  { "uv": [ 7, 4, 9, 16 ], "texture": "#rod" }
+            }
+        },
+        {   "from": [ 9, 0, 5 ],
+            "to": [ 15, 2, 11 ],
+            "faces": {
+                "down":  { "uv": [ 9,  5, 15, 11 ], "texture": "#base" },
+                "up":    { "uv": [ 9,  5, 15, 11 ], "texture": "#base" },
+                "north": { "texture": "#cobble" },
+                "south": { "texture": "#cobble" },
+                "west":  { "texture": "#cobble" },
+                "east":  { "texture": "#cobble" }
+            }
+        },
+        {   "from": [ 2, 0, 1 ],
+            "to": [ 8, 2, 7 ],
+            "faces": {
+                "down":  { "uv": [ 2,  1, 8,  7 ], "texture": "#base" },
+                "up":    { "uv": [ 2,  1, 8,  7 ], "texture": "#base" },
+                "north": { "texture": "#cobble" },
+                "south": { "texture": "#cobble" },
+                "west":  { "texture": "#cobble" },
+                "east":  { "texture": "#cobble" }
+            }
+        },
+        {   "from": [ 2, 0, 9 ],
+            "to": [ 8, 2, 15 ],
+            "faces": {
+                "down":  { "uv": [ 2,  9,  8, 15 ], "texture": "#base" },
+                "up":    { "uv": [ 2,  9,  8, 15 ], "texture": "#base" },
+                "north": { "texture": "#cobble" },
+                "south": { "texture": "#cobble" },
+                "west":  { "texture": "#cobble" },
+                "east":  { "texture": "#cobble" }
+            }
+        }
+    ]
+}

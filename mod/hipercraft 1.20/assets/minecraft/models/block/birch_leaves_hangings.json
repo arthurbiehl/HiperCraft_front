@@ -1,0 +1,27 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"hang": "block/birch_leaves_hang",
+		"particle": "block/birch_leaves"
+    },
+	"elements": [
+		{   "from": [ 9, -16, -3 ],
+            "to": [ 9, 4, 19 ],
+			"rotation": { "origin": [ 9, 8, 8 ], "axis": "y", "angle": 45, "rescale": false },
+			"shade": true,
+            "faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#hang", "tintindex": 0, "cullface": "down" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#hang", "tintindex": 0, "cullface": "down" }
+            }
+        },
+		{   "from": [ -2, -16, 8 ],
+            "to": [ 20, 4, 8 ],
+			"rotation": { "origin": [ 9, 8, 8 ], "axis": "y", "angle": 45, "rescale": false },
+			"shade": true,
+            "faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#hang", "tintindex": 0, "cullface": "down" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#hang", "tintindex": 0, "cullface": "down" }
+			}
+        }
+    ]
+}

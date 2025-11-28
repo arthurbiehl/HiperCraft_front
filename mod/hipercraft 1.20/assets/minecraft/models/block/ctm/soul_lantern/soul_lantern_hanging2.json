@@ -1,0 +1,7 @@
+{
+    "parent": "block/soul_lantern_hanging",
+    "textures": {
+        "particle": "block/ctm/soul_lantern/soul_lantern2",
+        "all": "block/ctm/soul_lantern/soul_lantern2"
+    }
+}

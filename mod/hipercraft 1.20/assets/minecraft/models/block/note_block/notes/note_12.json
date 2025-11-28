@@ -1,0 +1,6 @@
+{
+	"parent": "block/note_block_base",
+	"textures": {
+		"side": "block/note_block/notes/note_12"
+	}
+}

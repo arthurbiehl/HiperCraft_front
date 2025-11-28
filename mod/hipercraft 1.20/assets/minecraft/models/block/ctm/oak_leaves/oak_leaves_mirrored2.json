@@ -1,0 +1,7 @@
+{
+    "parent": "block/better_leaves_mirrored",
+    "textures": {
+        "all": "block/ctm/oak_leaves/oak_leaves_better2",
+		"better": "block/ctm/oak_leaves/oak_leaves_better2"
+    }
+}

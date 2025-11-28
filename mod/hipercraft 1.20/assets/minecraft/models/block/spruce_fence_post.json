@@ -1,0 +1,8 @@
+{
+    "parent": "block/fence_post_sharp",
+    "textures": {
+        "lower": "block/spruce_fence_post_lower",
+        "upper": "block/spruce_fence_post_upper",
+        "particle": "block/spruce_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/block_no_shades",
+    "textures": {
+        "all": "block/sea_lantern",
+        "particle": "block/sea_lantern"
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "minecraft:block/brick_wall",
+    "wall_top": "minecraft:block/brick_wall",
+    "bricks": "minecraft:block/bricks"
+  },
+    "elements": [
+        {   "from": [ 4.05, 0, 4.05 ],
+            "to": [ 11.95, 16, 11.95 ],
+            "faces": {
+                "down":  { "texture": "#bricks", "cullface": "down" },
+                "up":    { "texture": "#bricks", "cullface": "up" },
+                "north": { "texture": "#bricks" },
+                "south": { "texture": "#bricks" },
+                "west":  { "texture": "#bricks" },
+                "east":  { "texture": "#bricks" }
+            },
+            "__comment": "Center post"
+        },
+        {   "from": [ 4, 11.75, 4 ],
+            "to": [ 12, 16.05, 12 ],
+            "faces": {
+                "up":    { "texture": "#wall", "cullface": "up" },
+                "north": { "texture": "#wall", "cullface": "up" },
+                "south": { "texture": "#wall", "cullface": "up" },
+                "west":  { "texture": "#wall", "cullface": "up" },
+                "east":  { "texture": "#wall", "cullface": "up" }
+            },
+            "__comment": "Cap"
+        }
+    ]
+}

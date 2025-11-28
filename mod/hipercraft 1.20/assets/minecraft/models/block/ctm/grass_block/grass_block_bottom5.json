@@ -1,0 +1,7 @@
+{   
+	"parent": "block/ctm/grass_block/grass_block_bottom",
+	"textures": {
+        "particle": "block/dirt",
+        "bottom": "block/ctm/dirt/dirt5"
+    }
+}

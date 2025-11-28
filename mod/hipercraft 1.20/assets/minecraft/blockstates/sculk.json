@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/sculk"
+      },
+      {
+        "model": "minecraft:block/ctm/sculk/sculk_1"
+      },
+      {
+        "model": "minecraft:block/ctm/sculk/sculk_2"
+      },
+      {
+        "model": "minecraft:block/ctm/sculk/sculk_3"
+      }
+    ]
+  }
+}

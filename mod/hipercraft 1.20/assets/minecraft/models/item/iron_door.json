@@ -1,0 +1,59 @@
+{
+	"parent": "item/door",
+	"textures": {
+        "bottom": "block/iron_door_lower",
+        "top": "block/iron_door_upper",
+		"bottom_side": "block/iron_door_lower_side",
+		"up": "block/iron_door_top",
+		"top_side": "block/iron_door_upper_side",
+		"up": "block/iron_door_top"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 3 ], "texture": "#up", "rotation": 90, "cullface": "down" },
+                "up":    { "uv": [ 0, 0, 16, 3 ], "texture": "#up", "rotation": 90, "cullface": "up" },
+                "north": { "uv": [  0, 0,  3, 16 ], "texture": "#bottom_side", "cullface": "north" },
+                "south": { "uv": [  0, 0,  3, 16 ], "texture": "#bottom_side", "cullface": "south" },
+                "west":  { "uv": [  0, 0, 16, 16 ], "texture": "#bottom", "cullface": "west" },
+                "east":  { "uv": [ 16, 0,  0, 16 ], "texture": "#bottom" }
+            }
+        },
+		{   "from": [ 0, 16, 0 ],
+            "to": [ 3, 32, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 3 ], "texture": "#up", "rotation": 90, "cullface": "down" },
+                "up":    { "uv": [ 0, 0, 16, 3 ], "texture": "#up", "rotation": 90, "cullface": "up" },
+                "north": { "uv": [  0, 0,  3, 16 ], "texture": "#top_side", "cullface": "north" },
+                "south": { "uv": [  0, 0,  3, 16 ], "texture": "#top_side", "cullface": "south" },
+                "west":  { "uv": [  0, 0, 16, 16 ], "texture": "#top", "cullface": "west" },
+                "east":  { "uv": [ 16, 0,  0, 16 ], "texture": "#top" }
+            }
+        },
+		{   "from": [ 0, 25.875, 5.375 ],
+            "to": [ 3, 28.125, 5.375 ],
+            "faces": {
+                "south": { "uv": [  0, 3.875,  3, 6.125 ], "texture": "#top_side" }
+            }
+        },
+		{   "from": [ 0, 25.875, 10.75 ],
+            "to": [ 3, 28.125, 10.75 ],
+            "faces": {
+                "north": { "uv": [  0, 3.875,  3, 6.125 ], "texture": "#top_side" }
+            }
+        },
+		{   "from": [ 0, 25.875, 5.375 ],
+            "to": [ 3, 25.875, 10.75 ],
+            "faces": {
+                "up":    { "uv": [ 5.375, 0, 10.75, 3 ], "texture": "#up", "rotation": 90 }
+            }
+        },
+		{   "from": [ 0, 28.125, 5.375 ],
+            "to": [ 3, 28.125, 10.75 ],
+            "faces": {
+                "down":    { "uv": [ 5.375, 0, 10.75, 3 ], "texture": "#up", "rotation": 90 }
+            }
+        }
+    ]
+}

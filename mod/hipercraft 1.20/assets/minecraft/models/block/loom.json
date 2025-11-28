@@ -1,0 +1,117 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "top": "block/loom_top",
+        "bottom": "block/loom_bottom",
+        "front": "block/loom_front",
+        "side": "block/loom_side",
+        "inside_bottom": "block/loom_inside_bottom",
+        "inside_side": "block/loom_inside_side",
+        "particle": "block/loom_front"
+    },
+    "elements": [
+    	{
+    		"__comment": "Base",
+			"from": [ 0, 0, 0 ],
+            "to": [ 16, 1, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#inside_bottom" },
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+    	},
+    	{
+    		"__comment": "West Side",
+			"from": [ 0, 1, 0 ],
+            "to": [ 1, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#inside_side" }
+            }
+    	},
+    	{
+    		"__comment": "East Side",
+			"from": [ 15, 1, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#inside_side" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+    	},
+    	{
+    		"__comment": "South Side",
+			"from": [ 1, 1, 15 ],
+            "to": [ 15, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side", "cullface": "south" }
+            }
+    	},
+    	{
+    		"__comment": "Top Front Bar",
+			"from": [ 1, 15, 0 ],
+            "to": [ 15, 16, 8 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#front", "cullface": "north" }
+            }
+    	},
+    	{
+    		"__comment": "Top Rotated 1",
+			"from": [ 1, 16, 8 ],
+            "to": [ 15, 16, 12 ],
+            "rotation": { "origin": [ 8, 16, 8 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "faces": {
+                "up": { "texture": "#top", "cullface": "up" }
+            }
+    	},
+    	{
+    		"__comment": "Top Middle Bar",
+			"from": [ 1, 14, 12 ],
+            "to": [ 15, 15, 13 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "uv": [ 1, 0, 15, 1 ], "texture": "#side", "cullface": "up" },
+                "south": { "uv": [ 1, 0, 15, 1 ], "texture": "#side", "cullface": "up" }
+            }
+    	},
+    	{
+    		"__comment": "Top Rotated 2",
+			"from": [ 1, 14, 13 ],
+            "to": [ 15, 14, 15 ],
+            "rotation": { "origin": [ 8, 14, 13 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "faces": {
+                "up": { "texture": "#top", "cullface": "up" }
+            }
+    	},
+    	{
+    		"__comment": "Front Middle Bar",
+			"from": [ 1, 5, 2 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":    { "uv": [ 1, 0, 15, 13 ], "texture": "#inside_bottom", "rotation": 180, "cullface": "north" },
+                "up":    { "uv": [ 1, 0, 15, 13 ], "texture": "#side", "cullface": "north" },
+                "north": { "texture": "#front", "cullface": "north" }
+            }
+    	},
+    	{
+    		"__comment": "Front Rotated",
+			"from": [ 1, 8, 0 ],
+            "to": [ 15, 15, 0 ],
+            "rotation": { "origin": [ 8, 15, 0 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "faces": {
+                "north": { "texture": "#front", "cullface": "north" }
+            }
+    	}
+    ]
+}

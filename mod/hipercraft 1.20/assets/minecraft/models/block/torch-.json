@@ -1,0 +1,7 @@
+{
+    "parent": "block/torch_better",
+    "textures": {
+        "torch": "block/torch",
+		"torch_inv": "block/torch_inv"
+    }
+}

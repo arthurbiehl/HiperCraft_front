@@ -1,0 +1,150 @@
+{
+    "parent": "block/poppy",
+	"ambientocclusion": true,
+    "textures": {
+        "stems1": "block/oxeye_daisy_block_stems1",
+        "stems2": "block/oxeye_daisy_block_stems2",
+		"particle": "block/oxeye_daisy_block_stems1",
+		"flowers": "block/oxeye_daisy_block_flowers"
+    },
+	"elements": [
+        {   
+            "__comment": "Stems 1",
+            "from": [ 0, 0, 8 ],
+            "to": [ 16, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stems1" },
+                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#stems1" }
+            }
+        },
+        {   
+            "__comment": "Stems 2",
+            "from": [ 8, 0, 0 ],
+            "to": [ 8, 16, 16 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#stems2" },
+                "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#stems2" }
+            }
+        },
+
+
+
+
+        {   
+            "__comment": "Flower 1 (Stems 1)",
+            "from": [ 11, 8, 3 ],
+            "to": [ 13, 8, 5 ],
+            "rotation": { "origin": [ 12, 8, 4 ], "axis": "x", "angle": -45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 0, 0, 2, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 0, 0, 2, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 2 (Stems 1)",
+            "from": [ 9, 11.625, 5 ],
+            "to": [ 11, 11.625, 7 ],
+            "rotation": { "origin": [ 10, 11.625, 6 ], "axis": "z", "angle": -22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 2, 0, 4, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 2, 0, 4, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 3 (Stems 1)",
+            "from": [ 5.5, 10.625, 8.5 ],
+            "to": [ 7.5, 10.625, 10.5 ],
+            "rotation": { "origin": [ 6.5, 10.625, 9.5 ], "axis": "z", "angle": 22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 4, 0, 6, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 4, 0, 6, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 4 (Stems 1)",
+            "from": [ 3, 7.875, 11 ],
+            "to": [ 5, 7.875, 13 ],
+            "rotation": { "origin": [ 4, 7.875, 12 ], "axis": "x", "angle": 45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 6, 0, 8, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 6, 0, 8, 2 ], "texture": "#flowers" }
+            }
+        },
+
+
+        {   
+            "__comment": "Flower 5 (Stems 2)",
+            "from": [ 4, 6, 4 ],
+            "to": [ 6, 6, 6 ],
+            "rotation": { "origin": [ 5, 6, 5 ], "axis": "z", "angle": 45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 8, 0, 10, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 8, 0, 10, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 1 (Stems 2)",
+            "from": [ 6, 11.125, 6 ],
+            "to": [ 8, 11.125, 8 ],
+            "rotation": { "origin": [ 7, 11.125, 7 ], "axis": "x", "angle": 22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 0, 0, 2, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 0, 0, 2, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 2 (Stems 2)",
+            "from": [ 5, 11.5, 5 ],
+            "to": [ 7, 11.5, 7 ],
+            "rotation": { "origin": [ 6, 11.5, 6 ], "axis": "x", "angle": -22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 2, 0, 4, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 2, 0, 4, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 3 (Stems 2)",
+            "from": [ 8, 10.875, 8 ],
+            "to": [ 10, 10.875, 10 ],
+            "rotation": { "origin": [ 9, 10.875, 9 ], "axis": "z", "angle": -22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 4, 0, 6, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 4, 0, 6, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 4 (Stems 2)",
+            "from": [ 9, 10.5, 9 ],
+            "to": [ 11, 10.5, 11 ],
+            "rotation": { "origin": [ 10, 10.5, 10 ], "axis": "x", "angle": 22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 6, 0, 8, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 6, 0, 8, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 5 (Stems 2)",
+            "from": [ 10.5, 9.5, 10.5 ],
+            "to": [ 12.5, 9.5, 12.5 ],
+            "rotation": { "origin": [ 11.5, 9.5, 11.5 ], "axis": "z", "angle": -45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "down": { "uv": [ 8, 0, 10, 2 ], "texture": "#flowers" },
+                "up": { "uv": [ 8, 0, 10, 2 ], "texture": "#flowers" }
+            }
+        }
+    ]
+}

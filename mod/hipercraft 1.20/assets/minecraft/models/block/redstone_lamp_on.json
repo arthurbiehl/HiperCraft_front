@@ -1,0 +1,7 @@
+{
+    "parent": "block/block_no_shades",
+    "textures": {
+        "all": "block/redstone_lamp_on",
+        "particle": "block/redstone_lamp_on"
+    }
+}

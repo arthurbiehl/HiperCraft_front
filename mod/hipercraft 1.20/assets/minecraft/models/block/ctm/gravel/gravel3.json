@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "north": "block/ctm/gravel/gravel12",
+        "east": "block/ctm/gravel/gravel13",
+        "south": "block/ctm/gravel/gravel14",
+        "west": "block/ctm/gravel/gravel15",
+        "up": "block/ctm/gravel/gravel16",
+        "down": "block/ctm/gravel/gravel17",
+		"particle": "block/gravel"
+    }
+}

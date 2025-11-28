@@ -1,0 +1,9 @@
+{
+    "parent": "block/stairs_wooden",
+    "textures": {
+        "bottom": "block/birch_planks_stairs",
+        "top": "block/birch_planks_stairs",
+        "side": "block/birch_planks_stairs",
+        "front": "block/birch_planks"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/dead_bush", "weight": 25 },
+			{ "model": "block/ctm/dead_bush/tumbleweed", "weight": 1 },
+			{ "model": "block/ctm/dead_bush/dry_branches", "weight": 1 },
+			{ "model": "block/ctm/dead_bush/dry_branches", "y": 90, "weight": 1 },
+			{ "model": "block/ctm/dead_bush/dry_branches", "y": 180, "weight": 1 },
+			{ "model": "block/ctm/dead_bush/dry_branches", "y": 270, "weight": 1 }
+		]
+    }
+}

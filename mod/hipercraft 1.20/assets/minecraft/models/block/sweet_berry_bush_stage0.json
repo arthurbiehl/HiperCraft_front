@@ -1,0 +1,63 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "cross": "block/sweet_berry_bush_stage0",
+        "particle": "block/sweet_berry_bush_stage0"
+    },
+    "elements": [
+        {   "from": [ 0.8, 0, 8 ],
+            "to": [ 15.2, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#cross" },
+                "south": { "texture": "#cross" }
+            }
+        },
+        {   "from": [ 8, 0, 0.8 ],
+            "to": [ 8, 16, 15.2 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "texture": "#cross" },
+                "east": { "texture": "#cross" }
+            }
+        },
+        {   "from": [ 0, 0, -9 ],
+            "to": [ 16, 0, 7 ],
+            "rotation": { "origin": [ 8, 0, 7 ], "axis": "x", "angle": 45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "rotation": 180, "texture": "#cross" }
+            }
+        },
+        {   "from": [ 0, 0, 9 ],
+            "to": [ 16, 0, 25 ],
+            "rotation": { "origin": [ 8, 0, 9 ], "axis": "x", "angle": -45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#cross" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+            }
+        },
+        {   "from": [ -9, 0, 0 ],
+            "to": [ 7, 0, 16 ],
+            "rotation": { "origin": [ 7, 0, 8 ], "axis": "z", "angle": -45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "rotation": 270, "texture": "#cross" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "rotation": 270, "texture": "#cross" }
+            }
+        },
+        {   "from": [ 9, 0, 0 ],
+            "to": [ 25, 0, 16 ],
+            "rotation": { "origin": [ 9, 0, 8 ], "axis": "z", "angle": 45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#cross" },
+                "down": { "uv": [ 16, 0, 0, 16 ], "rotation": 90, "texture": "#cross" }
+            }
+        }
+    ]
+}

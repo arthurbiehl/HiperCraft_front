@@ -1,0 +1,78 @@
+{
+	"parent": "item/tall_model",
+	"textures": {
+        "sugar_cane": "block/sugar_cane"
+    },
+	"display": {
+        "ground": {
+            "rotation": [ 45, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        }
+    },
+	"elements": [
+		{
+			"from": [ 8, 0, 8 ],
+			"to": [ 9.5, 16, 9.5 ],
+			"rotation": {
+				"origin": [ 8, 8, 8],
+				"axis": "y",
+				"angle": 45
+			},
+			"faces": {
+                "down":  { "uv": [ 3, 0, 5, 2 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "up":    { "uv": [ 3, 0, 5, 2 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "north": { "uv": [ 5, 0, 7, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "south": { "uv": [ 5, 0, 7, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "west":  { "uv": [ 5, 0, 7, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "east":  { "uv": [ 5, 0, 7, 16 ], "texture": "#sugar_cane", "tintindex": 0 }
+            }
+		},
+		{
+			"from": [ 7, -2, 7 ],
+			"to": [ 8.5, 14, 8.5 ],
+			"rotation": {
+				"origin": [ 8, 8, 8],
+				"axis": "y",
+				"angle": 22.5
+			},
+			"faces": {
+                "down":  { "uv": [ 0, 0, 1, 1 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "north": { "uv": [ 2, 0, 3, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "south": { "uv": [ 2, 0, 3, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "west":  { "uv": [ 2, 0, 3, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "east":  { "uv": [ 2, 0, 3, 16 ], "texture": "#sugar_cane", "tintindex": 0 }
+            }
+		},
+		{
+			"from": [ 9.5, -2, 7.5 ],
+			"to": [ 10.5, 15, 8.5 ],
+			"faces": {
+                "down":  { "uv": [ 0, 0, 1, 1 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "north": { "uv": [ 9, 0, 10, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "south": { "uv": [ 9, 0, 10, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "west":  { "uv": [ 9, 0, 10, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "east":  { "uv": [ 9, 0, 10, 16 ], "texture": "#sugar_cane", "tintindex": 0 }
+            }
+		},
+		{
+			"from": [ 7, 2, 9 ],
+			"to": [ 8, 18, 10 ],
+			"rotation": {
+				"origin": [ 8, 8, 8],
+				"axis": "y",
+				"angle": 45
+			},
+			"faces": {
+                "down":  { "uv": [ 0, 0, 1, 1 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "north": { "uv": [ 10, 0, 11, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "south": { "uv": [ 10, 0, 11, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "west":  { "uv": [ 10, 0, 11, 16 ], "texture": "#sugar_cane", "tintindex": 0 },
+                "east":  { "uv": [ 10, 0, 11, 16 ], "texture": "#sugar_cane", "tintindex": 0 }
+            }
+		}
+	]
+}

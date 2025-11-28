@@ -1,0 +1,191 @@
+{
+    "parent": "block/flower",
+	"ambientocclusion": true,
+    "textures": {
+        "stems1": "block/dandelion_stems1",
+        "stems2": "block/dandelion_stems2",
+        "leaves_top": "block/dandelion_leaves_top",
+		"particle": "block/dandelion_stems1",
+		"flowers": "block/dandelion_flowers"
+    },
+	"elements": [
+        {   
+            "__comment": "Stems 1",
+            "from": [ 0, 0, 8 ],
+            "to": [ 16, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stems1" },
+                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#stems1" }
+            }
+        },
+        {   
+            "__comment": "Stems 2",
+            "from": [ 8, 0, 0 ],
+            "to": [ 8, 16, 16 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#stems2" },
+                "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#stems2" }
+            }
+        },
+
+
+
+
+        {   
+            "__comment": "Leaves East Top 1",
+            "from": [ 8, 0, 0 ],
+            "to": [ 12, 0, 16 ],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "z", "angle": 45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 12, 16, 16], "rotation": 90, "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 12, 0, 16], "rotation": 90, "texture": "#leaves_top" }
+            }
+        },
+        {   
+            "__comment": "Leaves East Top 2",
+            "from": [ 10.828, 2.828, 0 ],
+            "to": [ 13.828, 2.828, 16 ],
+            "rotation": { "origin": [ 10.828, 2.828, 8 ], "axis": "z", "angle": 22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 9, 16, 12 ], "rotation": 90, "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 9, 0, 12 ], "rotation": 90, "texture": "#leaves_top" }
+            }
+        },
+
+
+
+        {   
+            "__comment": "Leaves West Top 1",
+            "from": [ 5, 0, 0 ],
+            "to": [ 8, 0, 16 ],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "z", "angle": -45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 13, 16, 16], "rotation": 270, "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 13, 0, 16], "rotation": 270, "texture": "#leaves_top" }
+            }
+        },
+        {   
+            "__comment": "Leaves West Top 2",
+            "from": [ 1.879, 2.121, 0 ],
+            "to": [ 5.879, 2.121, 16 ],
+            "rotation": { "origin": [ 5.879, 2.121, 8 ], "axis": "z", "angle": -22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 9, 16, 13 ], "rotation": 270, "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 9, 0, 13 ], "rotation": 270, "texture": "#leaves_top" }
+            }
+        },
+
+
+
+        {   
+            "__comment": "Leaves North Top 1",
+            "from": [ 0, 0, 8 ],
+            "to": [ 16, 0, 13 ],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "x", "angle": -22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 11, 16, 16], "rotation": 180, "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 11, 0, 16], "rotation": 180, "texture": "#leaves_top" }
+            }
+        },
+        {   
+            "__comment": "Leaves North Top 2",
+            "from": [ 0, 1.913, 12.619 ],
+            "to": [ 16, 1.913, 14.619 ],
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 9, 16, 11 ], "rotation": 180, "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 9, 0, 11 ], "rotation": 180, "texture": "#leaves_top" }
+            }
+        },
+
+
+
+        {   
+            "__comment": "Leaves South Top 1",
+            "from": [ 0, 0, 4 ],
+            "to": [ 16, 0, 8 ],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "x", "angle": 22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 12, 16, 16], "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 12, 0, 16], "texture": "#leaves_top" }
+            }
+        },
+        {   
+            "__comment": "Leaves South Top 2",
+            "from": [ 0, 1.531, 1.304 ],
+            "to": [ 16, 1.531, 4.304 ],
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 9, 16, 12 ], "texture": "#leaves_top" },
+                "down": { "uv": [ 16, 9, 0, 12 ], "texture": "#leaves_top" }
+            }
+        },
+
+
+
+        {   
+            "__comment": "Flower 1",
+            "from": [ 9.625, 3.75, 4.375 ],
+            "to": [ 11.625, 3.75, 6.375 ],
+            "rotation": { "origin": [ 10.625, 3.75, 5.375 ], "axis": "x", "angle": -45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 0, 2, 2 ], "texture": "#flowers" },
+                "down": { "uv": [ 0, 0, 2, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 2",
+            "from": [ 8, 7.625, 5.5 ],
+            "to": [ 10.5, 7.625, 8 ],
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 2, 2.5, 4.5 ], "texture": "#flowers" },
+                "down": { "uv": [ 0, 2, 2.5, 4.5 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 3",
+            "from": [ 3.875, 6.5, 9.625 ],
+            "to": [ 6.375, 6.5, 12.125 ],
+            "rotation": { "origin": [ 5.375, 6.5, 10.625 ], "axis": "x", "angle": 22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 2.5, 2, 5, 4.5 ], "texture": "#flowers" },
+                "down": { "uv": [ 2.5, 2, 5, 4.5 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 4",
+            "from": [ 9.125, 3.5, 9.125 ],
+            "to": [ 11.125, 3.5, 11.125 ],
+            "rotation": { "origin": [ 10.125, 3.5, 10.125 ], "axis": "z", "angle": -45, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 2, 0, 4, 2 ], "texture": "#flowers" },
+                "down": { "uv": [ 2, 0, 4, 2 ], "texture": "#flowers" }
+            }
+        },
+        {   
+            "__comment": "Flower 5",
+            "from": [ 4.75, 6.125, 4.75 ],
+            "to": [ 6.75, 6.125, 6.75 ],
+            "rotation": { "origin": [ 5.75, 6.125, 5.75 ], "axis": "z", "angle": 22.5, "rescale": false },
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 4, 0, 6, 2 ], "texture": "#flowers" },
+                "down": { "uv": [ 4, 0, 6, 2 ], "texture": "#flowers" }
+            }
+        }
+    ]
+}

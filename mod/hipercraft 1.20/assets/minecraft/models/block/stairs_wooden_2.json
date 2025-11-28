@@ -1,0 +1,109 @@
+{
+    "parent": "block/stairs",
+	"textures": {
+        "particle": "#top"
+    },
+    "elements": [
+        {   "__comment": "Bottom Main Planks",
+			"from": [ 1.375, 1, 0 ],
+            "to": [ 16, 7, 16 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        },
+		
+		{  "__comment": "Bottom H Plank",
+			"from": [ 0, 7, 0 ],
+            "to": [ 16, 8, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        },
+		
+        {   "__comment": "Top Main Planks",
+			"from": [ 9.375, 8, 0 ],
+            "to": [ 16, 15, 16 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front"  },
+                "east":  { "texture": "#back" }
+            }
+        },
+		{   "__comment": "Top H Plank",
+			"from": [ 8, 15, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        },
+		
+		{  "__comment": "Base Plate",
+			"from": [ 0, 0, 0 ],
+            "to": [ 16, 1, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        },
+		
+		{   "__comment": "Top V Plank1",
+			"from": [ 8,     8,  0     ],
+            "to":   [ 9.375, 15, 1.375 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        },
+		{   "__comment": "Top V Plank2",
+			"from": [ 8, 8, 14.625 ],
+            "to": [ 9.375, 15, 16 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        },
+		
+		{   "__comment": "Bottom V Plank1",
+			"from": [ 0, 1, 0 ],
+            "to": [ 1.375, 7, 1.375 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        },
+		{   "__comment": "Bottom V Plank2",
+			"from": [ 0, 1, 14.625 ],
+            "to": [ 1.375, 7, 16 ],
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side2" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#back" }
+            }
+        }
+    ]
+}

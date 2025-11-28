@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_mirrored_vertical",
+    "textures": {
+        "all": "block/spruce_planks"
+    }
+}

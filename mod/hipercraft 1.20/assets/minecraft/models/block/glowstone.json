@@ -1,0 +1,7 @@
+{
+    "parent": "block/block_no_shades",
+	"textures": {
+        "all": "block/glowstone",
+		"particle": "block/glowstone"
+    }
+}

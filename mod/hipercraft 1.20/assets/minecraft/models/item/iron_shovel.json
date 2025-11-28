@@ -1,0 +1,26 @@
+{
+    "parent": "item/shovel",
+    "textures": {
+        "layer0": "item/iron_shovel"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"damaged": 1
+			},
+			"model": "item/iron_shovel_d1"
+		},
+		{
+			"predicate": {
+				"damage": 0.33
+			},
+			"model": "item/iron_shovel_d2"
+		},
+		{
+			"predicate": {
+				"damage": 0.66
+			},
+			"model": "item/iron_shovel_d3"
+		}
+	]
+}

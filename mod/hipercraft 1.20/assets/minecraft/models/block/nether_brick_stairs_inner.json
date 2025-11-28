@@ -1,0 +1,118 @@
+{
+    "parent": "block/inner_stairs_stone",
+    "textures": {
+        "bottom": "block/nether_bricks",
+        "top": "block/nether_bricks",
+        "side": "block/nether_bricks"
+    },
+	"elements": [
+        {   "__comment": "Layer1 Brick1",
+			"from": [ 0, 0, 0 ],
+            "to": [ 16, 5.375, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		
+		
+		
+		{   "__comment": "Layer2 Brick1",
+			"from": [ 5.375, 5.375, 0 ],
+            "to": [ 16, 10.625, 3.5 ],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Layer2 Brick2",
+			"from": [ 4.375, 5.375, 3.5 ],
+            "to": [ 16, 10.625, 10.625 ],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Layer2 Brick3",
+			"from": [ 5.375, 5.375, 10.625 ],
+            "to": [ 16, 10.625, 16 ],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Layer2 Brick4",
+			"from": [ 0, 5.375, 5.375 ],
+            "to": [ 5.375, 10.625, 16 ],
+            "faces": {
+                "up":    { "texture": "#top" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "north": { "texture": "#side" },
+                "west":  { "texture": "#side", "cullface": "west" }
+            }
+        },
+		
+		
+		
+		{   "__comment": "Layer3 Brick1",
+			"from": [ 10.625, 10.625, 0 ],
+            "to": [ 16, 16, 5.375 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Layer3 Brick2",
+			"from": [ 12, 10.625, 5.375 ],
+            "to": [ 16, 16, 11 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Layer3 Brick3",
+			"from": [ 11, 10.625, 11 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#top" },
+                "south": { "texture": "#top", "cullface": "south" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Layer3 Brick2",
+			"from": [ 5, 10.625, 12 ],
+            "to": [ 11, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north":  { "texture": "#side" },
+                "south":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Layer3 Brick5",
+			"from": [ 0, 10.625, 11 ],
+            "to": [ 5, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#top" },
+                "south": { "texture": "#top", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

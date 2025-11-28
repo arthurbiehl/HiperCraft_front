@@ -1,0 +1,7 @@
+{
+    "parent": "block/double_cross",
+    "textures": {
+        "top": "block/oak_sapling_top",
+        "bottom": "block/oak_sapling_bottom"
+    }
+}

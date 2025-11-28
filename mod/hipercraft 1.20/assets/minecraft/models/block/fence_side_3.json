@@ -1,0 +1,57 @@
+{
+    "textures": {
+        "particle": "#texture"
+    },
+    "elements": [
+        {   "from": [ 7.5, 14, 0 ],
+            "to": [ 8.5, 15, 6 ],
+            "faces": {
+                "down":  { "texture": "#texture" },
+                "up":    { "texture": "#texture" },
+                "north": { "texture": "#texture", "cullface": "north" },
+                "south": { "texture": "#texture", "cullface": "south" },
+                "west":  { "texture": "#texture" },
+                "east":  { "texture": "#texture" }
+            },
+            "__comment": "Top horizontal bar"
+        },
+        {   "from": [ 7.5, 13, 0 ],
+            "to": [ 8.5, 14, 6 ],
+            "rotation": { "origin": [ 8, 14, 6 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#texture" },
+                "up":    { "texture": "#texture" },
+                "north": { "texture": "#texture", "cullface": "north" },
+                "south": { "texture": "#texture", "cullface": "south" },
+                "west":  { "texture": "#texture" },
+                "east":  { "texture": "#texture" }
+            },
+            "__comment": "Top diagonal bar"
+        },
+        {   "from": [ 7.5, 7, 0 ],
+            "to": [ 8.5, 8, 6 ],
+            "rotation": { "origin": [ 8, 7, 6 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#texture" },
+                "up":    { "texture": "#texture" },
+                "north": { "texture": "#texture", "cullface": "north" },
+                "south": { "texture": "#texture", "cullface": "south" },
+                "west":  { "texture": "#texture" },
+                "east":  { "texture": "#texture" }
+            },
+            "__comment": "Bottom diagonal bar"
+        },
+        {   "from": [ 7.5, 6, 0 ],
+            "to": [ 8.5, 7, 6 ],
+            "faces": {
+                "down":  { "texture": "#texture" },
+                "up":    { "texture": "#texture" },
+                "north": { "texture": "#texture", "cullface": "north" },
+                "south": { "texture": "#texture", "cullface": "south" },
+                "west":  { "texture": "#texture" },
+                "east":  { "texture": "#texture" }
+            },
+            "__comment": "Bottom horizontal bar"
+        }
+    ]
+}

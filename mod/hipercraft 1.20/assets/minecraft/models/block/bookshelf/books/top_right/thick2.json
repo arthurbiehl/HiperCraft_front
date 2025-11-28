@@ -1,0 +1,30 @@
+{
+    "parent": "block/block",
+	"textures": {
+		"particle": "block/bookshelf",
+		"thick0": "block/books/thick/0",
+        "thick1": "block/books/thick/1"
+    },
+	"elements": [
+        {   "__comment": "Book1",
+            "from": [ 3, 8.25, 0.25 ],
+            "to": [ 4.25, 14, 3 ],
+            "faces": {
+                "up":  { "uv": [ 9, 1.125, 10.25, 3.875 ], "texture": "#thick0", "rotation": 180, "cullface": "north" },
+                "east": { "uv": [ 1.125, 0, 3.875, 5.75 ], "texture": "#thick0", "cullface": "north" },
+                "north":  { "uv": [ 3.875, 0, 5.125, 5.75 ], "texture": "#thick0", "cullface": "north" },
+                "west": { "uv": [ 5.125, 0, 7.875, 5.75 ], "texture": "#thick0", "cullface": "north" }
+            }
+        },
+        {   "__comment": "Book2",
+            "from": [ 1.375, 8.25, -0.125 ],
+            "to": [ 3, 14.125, 1.375 ],
+            "faces": {
+                "up":  { "uv": [ 9.625, 2.5, 11.25, 4 ], "texture": "#thick1", "rotation": 180, "cullface": "north" },
+                "east": { "uv": [ 2.5, 0, 4, 5.875 ], "texture": "#thick1", "cullface": "north" },
+                "north":  { "uv": [ 4, 0, 5.625, 5.875 ], "texture": "#thick1", "cullface": "north" },
+                "west": { "uv": [ 5.625, 0, 7.125, 5.875 ], "texture": "#thick1", "cullface": "north" }
+            }
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "parent": "block/block",
+	"textures": {
+		"particle": "block/bookshelf",
+        "inside": "block/bookshelf_inside",
+        "top": "block/bookshelf_top",
+		"side": "block/bookshelf_base",
+		"books0": "block/books/books0",
+		"books1": "block/books/books1",
+		"books2": "block/books/books2",
+		"books3": "block/books/books3",
+		"books4": "block/books/books4",
+		"books5": "block/books/books5",
+		"books6": "block/books/books6",
+		"books7": "block/books/books7",
+		"books8": "block/books/books8",
+		"books9": "block/books/books9",
+		"books10": "block/books/books10",
+		"books11": "block/books/books11"
+    },
+	"elements": [
+        {   "__comment": "Top plank",
+			"from": [ 0, 15.5, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#inside" },
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Bottom plank",
+			"from": [ 0, 0, 0 ],
+            "to": [ 16, 0.5, 16 ],
+            "faces": {
+                "down":  { "texture": "#top", "cullface": "down" },
+                "up":    { "texture": "#inside" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "Middle plank",
+			"from": [ 0, 7.75, 0 ],
+            "to": [ 16, 8.25, 16 ],
+            "faces": {
+                "down":  { "texture": "#inside" },
+                "up":    { "texture": "#inside" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		
+		{   "__comment": "V Plank1",
+			"from": [ 0, 0.5, 0 ],
+            "to": [ 0.5, 15.5, 0.5 ],
+            "faces": {
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "west" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "north" }
+            }
+        },
+		{   "__comment": "V Plank2",
+			"from": [ 15.5, 0.5, 0 ],
+            "to": [ 16, 15.5, 0.5 ],
+            "faces": {
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "east" },
+                "west":  { "texture": "#side", "cullface": "north" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		{   "__comment": "V Plank3",
+			"from": [ 0, 0.5, 15.5 ],
+            "to": [ 0.5, 15.5, 16 ],
+            "faces": {
+                "north": { "texture": "#side", "cullface": "west" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "south" }
+            }
+        },
+		{   "__comment": "V Plank4",
+			"from": [ 15.5, 0.5, 15.5 ],
+            "to": [ 16, 15.5, 16 ],
+            "faces": {
+                "north": { "texture": "#side", "cullface": "east" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "south" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+		
+		{   "__comment": "Cross",
+			"from": [ 0, 0.5, 8 ],
+            "to": [ 16, 15.5, 8 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "faces": {
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" }
+            }
+        },
+		{   "__comment": "Cross",
+			"from": [ 8, 0.5, 0 ],
+            "to": [ 8, 15.5, 16 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "faces": {
+                "west": { "texture": "#side" },
+                "east": { "texture": "#side" }
+            }
+        }
+    ]
+}

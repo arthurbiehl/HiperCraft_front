@@ -1,0 +1,98 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "block/beehive_side",
+        "bottom": "block/beehive_end",
+        "top": "block/beehive_end",
+        "inside": "block/beehive_inside",
+        "front": "block/beehive_front",
+        "side": "block/beehive_side"
+    },
+    "elements": [
+    	{   "__comment": "Bottom Plate",
+			"from": [ 0, 0, 0 ],
+            "to": [ 16, 1, 16 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#inside" },
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+        {   "__comment": "Top Plate",
+			"from": [ 0, 13, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#inside" },
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+        {   "__comment": "NW Post",
+			"from": [ 0, 1, 0 ],
+            "to": [ 1.5, 13, 1.5 ],
+            "faces": {
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "west" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "north" }
+            }
+        },
+        {   "__comment": "NE Post",
+			"from": [ 14.5, 1, 0 ],
+            "to": [ 16, 13, 1.5 ],
+            "faces": {
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "east" },
+                "west":  { "texture": "#side", "cullface": "north" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+        {   "__comment": "SW Post",
+			"from": [ 0, 1, 14.5 ],
+            "to": [ 1.5, 13, 16 ],
+            "faces": {
+                "north": { "texture": "#front", "cullface": "west" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "south" }
+            }
+        },
+        {   "__comment": "SE Post",
+			"from": [ 14.5, 1, 14.5 ],
+            "to": [ 16, 13, 16 ],
+            "faces": {
+                "north": { "texture": "#front", "cullface": "east" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "south" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+        {   "__comment": "Base",
+			"from": [ 1.5, 1, 1.5 ],
+            "to": [ 14.5, 13, 14.5 ],
+            "faces": {
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west" },
+                "east":  { "texture": "#side", "cullface": "east" }
+            }
+        },
+    	{   "__comment": "Middle Plate",
+			"from": [ 5, 4.25, 0 ],
+            "to": [ 11, 5, 1.5 ],
+            "faces": {
+                "down":  { "texture": "#inside", "cullface": "north" },
+                "up":    { "texture": "#inside", "cullface": "north" },
+                "north": { "texture": "#front", "cullface": "north" },
+                "west":  { "texture": "#front", "uv": [ 5, 11, 6.5, 11.75 ], "cullface": "north" },
+                "east":  { "texture": "#front", "uv": [ 9.5, 11, 11, 11.75 ], "cullface": "north" }
+            }
+        }
+    ]
+}

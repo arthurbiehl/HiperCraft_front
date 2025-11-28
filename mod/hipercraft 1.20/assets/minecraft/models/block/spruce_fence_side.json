@@ -1,0 +1,9 @@
+{
+    "parent": "block/fence_side_2",
+    "textures": {
+        "texture": "block/spruce_planks",
+        "horizontal": "block/spruce_fence_side_horizontal",
+        "inside": "block/spruce_fence_side_horizontal_inside",
+        "vertical": "block/spruce_fence_side_vertical"
+    }
+}

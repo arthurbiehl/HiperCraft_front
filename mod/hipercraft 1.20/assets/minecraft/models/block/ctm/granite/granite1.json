@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "north": "block/granite",
+        "east": "block/ctm/granite/granite1",
+        "south": "block/ctm/granite/granite2",
+        "west": "block/ctm/granite/granite3",
+        "up": "block/ctm/granite/granite4",
+        "down": "block/ctm/granite/granite5",
+		"particle": "block/granite"
+    }
+}

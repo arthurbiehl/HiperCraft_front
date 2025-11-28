@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"dripstone": "block/dripstone_block",
+		"top": "block/dripstone_block_top",
+		"pointed": "block/pointed_dripstone2",
+		"cross": "block/pointed_dripstone_down_middle",
+		"particle": "block/dripstone_block"
+	},
+	"elements": [
+		{
+			"from": [ 4, 0, 4 ],
+			"to": [ 13, 16, 13 ],
+            "shade": false,
+			"faces": {
+				"north": { "texture": "#pointed"},
+				"east": { "texture": "#pointed"},
+				"south": { "texture": "#pointed"},
+				"west": { "texture": "#pointed"},
+				"up": { "texture": "#top"},
+				"down": { "texture": "#top"}
+			}
+		},
+	    {   "from": [ 0.5, 0, 8.5 ],
+	        "to": [ 16.5, 16, 8.5 ],
+	        "rotation": { "origin": [ 8.5, 8, 8.5 ], "axis": "y", "angle": 45, "rescale": true },
+	        "shade": false,
+	        "faces": {
+	            "north": { "uv": [ 0, 0, 16, 16], "texture": "#cross" },
+	            "south": { "uv": [ 0, 0, 16, 16], "texture": "#cross" }
+	        }
+	    },
+	    {   "from": [ 8.5, 0, 0.5 ],
+	        "to": [ 8.5, 16, 16.5 ],
+	        "rotation": { "origin": [ 8.5, 8, 8.5 ], "axis": "y", "angle": 45, "rescale": true },
+	        "shade": false,
+	        "faces": {
+	            "west": { "uv": [ 0, 0, 16, 16], "texture": "#cross" },
+	            "east": { "uv": [ 0, 0, 16, 16], "texture": "#cross" }
+	        }
+	    }
+	]
+}

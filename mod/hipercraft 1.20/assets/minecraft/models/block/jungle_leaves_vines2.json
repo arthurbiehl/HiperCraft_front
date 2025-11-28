@@ -1,0 +1,27 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"vines": "block/jungle_leaves_vines",
+		"particle": "block/jungle_leaves"
+    },
+	"elements": [
+		{   "from": [ 9, -12, -3 ],
+            "to": [ 9, 8, 19 ],
+			"rotation": { "origin": [ 9, 8, 8 ], "axis": "y", "angle": 45, "rescale": false },
+			"shade": true,
+            "faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#vines", "tintindex": 0, "cullface": "down" },
+                "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#vines", "tintindex": 0, "cullface": "down" }
+            }
+        },
+		{   "from": [ -2, -12, 8 ],
+            "to": [ 20, 8, 8 ],
+			"rotation": { "origin": [ 9, 8, 8 ], "axis": "y", "angle": 45, "rescale": false },
+			"shade": true,
+            "faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#vines", "tintindex": 0, "cullface": "down" },
+                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#vines", "tintindex": 0, "cullface": "down" }
+			}
+        }
+    ]
+}

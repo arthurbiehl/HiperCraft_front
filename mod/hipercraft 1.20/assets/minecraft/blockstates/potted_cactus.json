@@ -1,0 +1,10 @@
+{
+    "multipart": [
+		{
+			"apply": { "model": "block/potted_cactus" }
+		},
+		{
+			"apply": { "model": "block/flower_pot" }
+		}
+	]
+}

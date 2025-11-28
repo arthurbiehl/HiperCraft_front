@@ -1,0 +1,11 @@
+{
+    "parent": "block/beehive",
+    "textures": {
+        "particle": "block/beehive_side",
+        "bottom": "block/beehive_end",
+        "top": "block/beehive_end",
+        "inside": "block/beehive_inside",
+        "front": "block/beehive_front_honey",
+        "side": "block/beehive_side_honey"
+    }
+}

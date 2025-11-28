@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="stone3_data" version="1.3.0" audacityversion="2.0.5" sel0="-0.2465208300" sel1="1.2934791700" vpos="0" h="0.0000000000" zoom="170.3637976930" rate="48000.0">
+	<tags/>
+	<wavetrack name="" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="22050">
+				<waveblock start="0">
+					<simpleblockfile filename="e00005f1.au" len="22050" min="-0.438232" max="0.436798" rms="0.021498"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="336023__adamgryu__rocks" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="0.177828" pan="0.0">
+		<waveclip offset="-0.24652083">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="73920">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000aa3.au" len="73920" min="-0.999995" max="0.99997" rms="0.06593"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="336023__adamgryu__rocks" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="0.177828" pan="0.0">
+		<waveclip offset="-0.24652083">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="73920">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f84.au" len="73920" min="-0.994627" max="0.95828" rms="0.064014"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

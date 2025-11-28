@@ -1,0 +1,287 @@
+{
+    "multipart": [
+		{ "apply": { "model": "block/ctm/bookshelf/bookshelf_base" }},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_left/thin0", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thin1", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thin2", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thin3", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_left/thick0", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thick1", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thick2", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thick3", "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_right/thin0", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thin1", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thin2", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thin3", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_right/thick0", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thick1", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thick2", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thick3", "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_middle/thin0", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_middle/thin1", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_middle/thick0", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_middle/thick1", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_middle/mix0", "weight": 1 },
+				{ "model": "block/bookshelf/books/top_middle/mix1", "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_left/thin0", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_left/thin1", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_left/thin2", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_left/thick0", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_left/thick1", "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_middle/thin0", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_middle/thin1", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/thick0", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_middle/thick1", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/mix0", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_middle/mix1", "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_right/thin0", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_right/thin1", "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_right/thick0", "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_right/thick1", "weight": 1 }
+			]
+		},
+		
+
+
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_left/thin0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thin1", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thin2", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thin3", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_left/thick0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thick1", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thick2", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thick3", "y": 90, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_right/thin0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thin1", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thin2", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thin3", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_right/thick0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thick1", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thick2", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thick3", "y": 90, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_middle/thin0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_middle/thin1", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_middle/thick0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_middle/thick1", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_middle/mix0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_middle/mix1", "y": 90, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_left/thin0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_left/thin1", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_left/thin2", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_left/thick0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_left/thick1", "y": 90, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_middle/thin0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_middle/thin1", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/thick0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_middle/thick1", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/mix0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_middle/mix1", "y": 90, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_right/thin0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_right/thin1", "y": 90, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_right/thick0", "y": 90, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_right/thick1", "y": 90, "weight": 2 }
+			]
+		},
+		
+
+
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_left/thin0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thin1", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thin2", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thin3", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_left/thick0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thick1", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thick2", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_left/thick3", "y": 180, "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_right/thin0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thin1", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thin2", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thin3", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_right/thick0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thick1", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thick2", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_right/thick3", "y": 180, "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_middle/thin0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_middle/thin1", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_middle/thick0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_middle/thick1", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/top_middle/mix0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/top_middle/mix1", "y": 180, "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_left/thin0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_left/thin1", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_left/thin2", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_left/thick0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_left/thick1", "y": 180, "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_middle/thin0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_middle/thin1", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/thick0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_middle/thick1", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/mix0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_middle/mix1", "y": 180, "weight": 1 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_right/thin0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_right/thin1", "y": 180, "weight": 1 },
+
+				{ "model": "block/bookshelf/books/bottom_right/thick0", "y": 180, "weight": 1 },
+				{ "model": "block/bookshelf/books/bottom_right/thick1", "y": 180, "weight": 1 }
+			]
+		},
+		
+
+
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_left/thin0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thin1", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thin2", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thin3", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_left/thick0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thick1", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thick2", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_left/thick3", "y": 270, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_right/thin0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thin1", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thin2", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thin3", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_right/thick0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thick1", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thick2", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_right/thick3", "y": 270, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/top_middle/thin0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_middle/thin1", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_middle/thick0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_middle/thick1", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/top_middle/mix0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/top_middle/mix1", "y": 270, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_left/thin0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_left/thin1", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_left/thin2", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_left/thick0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_left/thick1", "y": 270, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_middle/thin0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_middle/thin1", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/thick0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_middle/thick1", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_middle/mix0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_middle/mix1", "y": 270, "weight": 2 }
+			]
+		},
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books/bottom_right/thin0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_right/thin1", "y": 270, "weight": 2 },
+
+				{ "model": "block/bookshelf/books/bottom_right/thick0", "y": 270, "weight": 2 },
+				{ "model": "block/bookshelf/books/bottom_right/thick1", "y": 270, "weight": 2 }
+			]
+		}
+	]
+}

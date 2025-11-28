@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "north": "block/ctm/diorite/diorite18",
+        "east": "block/ctm/diorite/diorite19",
+        "south": "block/ctm/diorite/diorite20",
+        "west": "block/ctm/diorite/diorite21",
+        "up": "block/ctm/diorite/diorite22",
+        "down": "block/ctm/diorite/diorite23",
+		"particle": "block/diorite"
+    }
+}

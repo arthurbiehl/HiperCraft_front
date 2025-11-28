@@ -1,0 +1,6 @@
+{
+    "parent": "block/cracked_stone_bricks",
+    "textures": {
+        "all": "block/ctm/cracked_stone_bricks/cracked_stone_bricks1"
+    }
+}

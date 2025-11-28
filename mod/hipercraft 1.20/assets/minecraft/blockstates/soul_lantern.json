@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "hanging=true": [
+        	{ "model": "block/soul_lantern_hanging"},
+        	{ "model": "block/ctm/soul_lantern/soul_lantern_hanging2"},
+        	{ "model": "block/ctm/soul_lantern/soul_lantern_hanging3"}
+        ],
+        "hanging=false": [
+        	{ "model": "block/soul_lantern"},
+        	{ "model": "block/ctm/soul_lantern/soul_lantern2"},
+        	{ "model": "block/ctm/soul_lantern/soul_lantern3"}
+        ]
+  }
+}

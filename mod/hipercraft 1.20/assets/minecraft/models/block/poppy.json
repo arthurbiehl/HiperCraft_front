@@ -1,0 +1,117 @@
+{
+    "parent": "block/flower",
+	"ambientocclusion": true,
+    "textures": {
+        "stem": "block/poppy_stem",
+		"petals": "block/poppy_petals",
+		"particle": "block/poppy"
+    },
+	"elements": [
+        {   "from": [ 0.8, 0, 8 ],
+            "to": [ 15.2, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+            }
+        },
+        {   "from": [ 8, 0, 0.8 ],
+            "to": [ 8, 16, 15.2 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+            }
+        },
+		{   "from": [ 5.5, 10, 5.2 ],
+            "to": [ 10.5, 10, 8.2 ],
+            "rotation": { "origin": [ 8, 9.5, 8.2 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals" },
+                "down": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals", "rotation": 180 }
+            }
+        },
+		{   "from": [ 5.5, 9.5, 5.2 ],
+            "to": [ 10.5, 9.5, 8.2 ],
+            "rotation": { "origin": [ 8, 9.5, 8.2 ], "axis": "x", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals" },
+                "down": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals", "rotation": 180 }
+            }
+        },
+		{   "from": [ 5.5, 10.2, 5.2 ],
+            "to": [ 10.5, 10.2, 8.2 ],
+            "rotation": { "origin": [ 8, 10, 8 ], "axis": "y", "angle": 45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals" },
+                "down": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals", "rotation": 180 }
+            }
+        },
+		{   "from": [ 5.2, 10, 5.5 ],
+            "to": [ 8.2, 10, 10.5 ],
+            "rotation": { "origin": [ 8.2, 9.5, 8 ], "axis": "z", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals", "rotation": 270 },
+                "down": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals", "rotation": 270 }
+            }
+        },
+		{   "from": [ 5.2, 10, 5.5 ],
+            "to": [ 8.2, 10, 10.5 ],
+            "rotation": { "origin": [ 8.2, 9.5, 8 ], "axis": "y", "angle": 45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals", "rotation": 270 },
+                "down": { "uv": [ 0, 0, 5, 3 ], "texture": "#petals", "rotation": 270 }
+            }
+        },
+		{   "from": [ 5.5, 10, 7.8 ],
+            "to": [ 10.5, 10, 10.8 ],
+            "rotation": { "origin": [ 8, 9.5, 8 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 13, 5, 16 ], "texture": "#petals" },
+                "down": { "uv": [ 0, 13, 5, 16 ], "texture": "#petals", "rotation": 180 }
+            }
+        },
+		{   "from": [ 5.5, 10.2, 7.8 ],
+            "to": [ 10.5, 10.2, 10.8 ],
+            "rotation": { "origin": [ 8, 9.5, 8 ], "axis": "y", "angle": 45, "rescale": false },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 13, 5, 16 ], "texture": "#petals" },
+                "down": { "uv": [ 0, 13, 5, 16 ], "texture": "#petals", "rotation": 180 }
+            }
+        },
+		{   "from": [ 7, 10.5, 7 ],
+            "to": [ 9, 10.5, 9 ],
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 14, 0, 16, 2 ], "texture": "#petals" },
+                "down": { "uv": [ 14, 0, 16, 2 ], "texture": "#petals" }
+            }
+        }
+    ],
+	"display": {
+		"firstperson_righthand": {
+            "rotation": [ 0, -90, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+		"gui": {
+            "rotation": [ 22.5, -45, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1, 1, 1 ]
+        },
+		"fixed": {
+            "rotation": [ -22.5, 180, 0 ],
+            "translation": [ 0, 0, -2 ],
+            "scale":[ 1, 1, 1 ]
+        }
+	}
+}
