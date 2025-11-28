@@ -11,6 +11,21 @@
 </head>
 
 <body>
+
+    <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="mobile-nav">
+        <a href="index.html">Página Inicial</a>
+        <a href="mobs.html">Lista de Mobs</a>
+        <a href="logs.html">Atualizações</a>
+        <a href="#install">Instalação</a>
+        <button class="register-button mobile-register">Baixar Agora</button>
+    </nav>
+
     <header class="new-header">
         <div class="header-content">
             <div class="header-left">
@@ -23,7 +38,7 @@
                         <a href="#" class="nav-link dropdown-toggle">Conteúdo <span class="arrow-down"></span></a>
                         <div class="dropdown-menu">
                             <a href="mobs.html">Lista de Mobs</a>
-                            <a href="/logs.html">Atualizações</a>
+                            <a href="logs.html">Atualizações</a>
                         </div>
                     </div>
                     <a href="#install" class="nav-link">Instalação</a>
@@ -310,6 +325,16 @@
     <script>
         // Script simples para atualizar o ano no copyright
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+
+        const menuBtn = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+
+        menuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+        });
+
+
     </script>
 
 

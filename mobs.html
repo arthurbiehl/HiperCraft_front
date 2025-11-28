@@ -12,6 +12,20 @@
 
 <body>
 
+    <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="mobile-nav">
+        <a href="index.html">Página Inicial</a>
+        <a href="mobs.html">Lista de Mobs</a>
+        <a href="logs.html">Atualizações</a>
+        <a href="#install">Instalação</a>
+        <button class="register-button mobile-register">Baixar Agora</button>
+    </nav>
+
     <header class="new-header">
         <div class="header-content">
             <div class="header-left">
@@ -39,13 +53,13 @@
 
     <section class="l-section gallery" id="mobs">
         <div class="u-container">
-            
+
             <div class="gallery__header">
                 <h2 class="gallery__title">Nossas Novas Criaturas</h2>
             </div>
-            
+
             <div class="gallery__grid">
-                
+
                 <a href="#" class="gallery__item">
                     <img src="img/img1.png" alt="Creeper Sombrio">
                     <div class="gallery__overlay">
@@ -80,14 +94,14 @@
                         <h3 class="gallery__name">Silverfish Cristalino</h3>
                     </div>
                 </a>
-                
+
                 <a href="#" class="gallery__item">
                     <img src="URL_DA_IMAGEM_OUTRO.png" alt="Ghast de Gelo">
                     <div class="gallery__overlay">
                         <h3 class="gallery__name">Ghast de Gelo</h3>
                     </div>
                 </a>
-                
+
                 <a href="#" class="gallery__item">
                     <img src="URL_DA_IMAGEM_OUTRO.png" alt="Guerreiro Piglin">
                     <div class="gallery__overlay">
@@ -105,7 +119,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer class="main-footer">
         <div class="container footer-content">
             <div class="footer-section footer-brand">
@@ -156,6 +170,12 @@
 
     <script>
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+        const menuBtn = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+
+        menuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+        });
     </script>
 
 </body>
