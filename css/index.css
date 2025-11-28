@@ -696,99 +696,139 @@ body {
 /*===================================================================*/
 /* # 9. ESTILOS DO ÁLBUM DE IMAGENS (NOVO ESTILO) */
 /*===================================================================*/
-
+/*
+=============================
+ 1. Container e Seção
+=============================
+*/
 .mob-gallery-section {
-    padding: 60px 0;
-    /* Um pouco mais de padding */
-    background-color: var(--dark-bg);
-    /* Fundo um pouco mais escuro para a seção */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-bg); /* Use variáveis CSS se definidas */
+    padding: 40px 0; /* Adicionado padding para respiro */
 }
 
-/* Título da Seção (mantido do ajuste anterior) */
-.section-title {
-    font-size: 2.5em;
-    font-weight: 800;
+/* Centraliza o conteúdo e garante responsividade */
+.container_gallery {
+    /* Removido o width fixo de 1300px. Usamos max-width para responsividade. */
+    width: 100%;
+    max-width: 1300px; 
+    padding: 0 20px; /* Padding horizontal para telas menores */
+}
+
+.container_gallery h2 {
     text-align: center;
-    margin: 0 auto 40px auto;
-    /* Aumenta a margem para o grid */
-    color: var(--text-color);
+    margin-bottom: 5px;
 }
 
-/* Grid para o Álbum de Imagens */
+.container_gallery p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ccc;
+    font-size: 1.1em;
+}
+
+/*
+=============================
+ 2. Grid (Usando CSS Grid)
+=============================
+*/
 .mob-gallery-grid {
+    width: 100%; /* Ajustado para 100% e controlamos o max-width no container */
     display: grid;
-    /* 5 colunas como no exemplo, com tamanho flexível */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    /* Espaçamento menor entre os itens, como em uma galeria */
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
+    /* Define o número de colunas (Exemplo: 4 colunas) */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 15px; /* Aumentado um pouco o gap */
+    padding: 5px;
+    /* background-color: red; <- Removido a cor de debug */
 }
 
-/* Estilo do Item Individual da Galeria */
+/*
+=============================
+ 3. Item da Galeria e Imagem
+=============================
+*/
+
 .mob-gallery-item {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    /* Adicione box-shadow à transição */
     aspect-ratio: 1/1.5;
+    /* flex: 1; <- Removido, pois estamos usando CSS Grid */
 }
 
 .mob-gallery-item img {
-    /* ------------------------------------- */
-    /* MUDANÇA 1: Estado Base - Largura maior */
-    /* ------------------------------------- */
-    width: 150%;
-    /* Faz a imagem ser 50% mais larga que o container */
+    width: 100%;
     height: 100%;
 
-    /* object-fit: cover;
-       => Com a largura de 150%, 'cover' garante que ela preencha verticalmente,
-       mas a parte lateral será cortada (escondida pelo overflow: hidden). */
+    /* ESTADO BASE MELHORADO: Usa object-fit: cover e um leve scale para zoom.
+       Removemos a complexidade de 150% e translateX(-16.66%). */
     object-fit: cover;
-
     display: block;
-    /* Move a imagem para o centro, garantindo corte igual dos lados */
-    transform: translateX(-16.66%);
-    /* (150% - 100%) / 2 = 25% do tamanho do container. 
-                                        Para 150%, é 16.66% do tamanho do container. */
+    
+    /* Leve zoom e centralização inicial para o "corte" */
+    transform: scale(1.1); 
 
-    transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out, width 0.4s ease-in-out;
-
+    transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
     filter: brightness(0.8);
 }
 
-/* Efeito de Sobreposição (Overlay) */
+/*
+=============================
+ 4. Efeito de Sobreposição (Overlay)
+=============================
+*/
+
 .mob-gallery-item .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, #6e43c866 0%, transparent 50%);
+    /* Gradiente mais forte no bottom para o texto */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 50%); 
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     pointer-events: none;
+    z-index: 10; /* Garante que o overlay esteja acima da imagem */
+    
+    /* Adicionado flexbox para posicionar o texto na parte inferior */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 15px;
 }
 
-/* Efeitos de Hover */
+.overlay h3 {
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+    transform: translateY(10px); /* Esconde o texto ligeiramente */
+    transition: transform 0.3s ease-in-out;
+}
+
+/*
+=============================
+ 5. Efeitos de Hover
+=============================
+*/
 .mob-gallery-item:hover {
     transform: translateY(-5px) scale(1.02);
-    box-shadow: 0 8px 25px rgba(110, 67, 200, 0.6);
+    /* Sombra com a cor roxa (var(--primary-color) se definida) */
+    box-shadow: 0 8px 25px rgba(110, 67, 200, 0.6); 
 }
 
 .mob-gallery-item:hover img {
-
-    width: 100%;
-
-    /* Centraliza a imagem no container */
-    transform: translateX(0) scale(1.05);
-    object-fit: contain;
-
+    /* Retorna ao scale 1 (zoom out para mostrar a imagem completa) */
+    transform: scale(1); 
+    object-fit: contain; /* Mantém o cover para evitar barras brancas se for zoom out */
     filter: brightness(1);
 }
 
@@ -796,7 +836,32 @@ body {
     opacity: 1;
 }
 
+.mob-gallery-item:hover .overlay h3 {
+    transform: translateY(0); /* Mostra o texto */
+    transition-delay: 0.1s; /* Pequeno atraso para o texto aparecer depois do overlay */
+}
 
+/*
+=============================
+ 6. Media Queries para Responsividade
+=============================
+*/
+
+/* Para telas menores (Ex: Tablets na vertical e Mobiles) */
+@media (max-width: 800px) {
+    .mob-gallery-grid {
+        /* Muda para 2 colunas no máximo, cada uma no mínimo 150px */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    }
+}
+
+/* Para telas muito pequenas (Ex: Mobiles) */
+@media (max-width: 450px) {
+    .mob-gallery-grid {
+        /* Muda para 1 coluna */
+        grid-template-columns: 1fr; 
+    }
+}
 /*===================================================================*/
 /* # 10. ESTILOS DO FOOTER */
 /*===================================================================*/
